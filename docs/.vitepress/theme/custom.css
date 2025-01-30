@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'canger';
+    src: url(/fonts/canger.ttf) format('truetype');
+    font-weight: 200 900;
+    font-stretch: 100% 100%;
+}
+
+:root {
+    --vp-font-family-base: canger,sans-serif;
+    --vp-font-family-mono: canger,sans-serif;
+}
+
+html {
+    font-family: var(--vp-font-family-base);
+}

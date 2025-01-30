@@ -2,19 +2,19 @@
 layout: home
 
 hero:
-  name: 是柠新呀的博客
-  text: awesome-front-end-world.
-  tagline: 前端 知识体系地图
+  name: aaaa0ggmc的博客
+  text: Dip into the world deeper...
+  tagline: C++ OpenGL ArchLinux 摄影 旅行
   image:
-    src: /logo.jpg
+    src: /logo.png
     alt: logo
   actions:
     - theme: brand
       text: Get Started
-      link: /bigFrontEnd/html/
+      link:  /keep_learning
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/aaaa0ggMC
 ---
 
 <style>
@@ -38,5 +38,3 @@ hero:
   }
 }
 </style>
-
-# Hello World!
