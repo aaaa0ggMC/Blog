@@ -13,3 +13,20 @@
 html {
     font-family: var(--vp-font-family-base);
 }
+
+.ps{
+    color: gray;
+    scale: 90% 90%;
+}
+
+.hl{
+    color:coral;
+}
+
+.ins{
+    text-indent: 1em;
+}
+
+.leave{
+    text-align: right;
+}
