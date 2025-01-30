@@ -1,0 +1,28 @@
+{
+  "name": "aaaa0ggmc.github.io",
+  "version": "1.0.0",
+  "description": "A blog website",
+  "keywords": [
+    "Website;Blog;Vitepress"
+  ],
+  "homepage": "https://github.com/aaaa0ggMC/aaaa0ggMc.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/aaaa0ggMC/aaaa0ggMc.github.io/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaaa0ggMC/aaaa0ggMc.github.io.git"
+  },
+  "license": "ISC",
+  "author": "aaaa0ggmc",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev":"vitepress dev docs",
+    "build":"vitepress build docs",
+    "preview":"vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
