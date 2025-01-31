@@ -10,4 +10,4 @@ const theme: Theme = {
   Layout: LayoutIndex
 }
 
-export default DefaultTheme;
+export default theme;
