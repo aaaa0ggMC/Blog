@@ -23,20 +23,27 @@ export default {
       {text:'关于',link:'/about'},
     ],
     sidebar:{
-      "writings":[
+      "/exploration":[
+        {text:"探险",link:"/exploration/"},
+        {text:"自在、独行",link:"/exploration/2025.1.1"},
+      ],
+      "/writings":[
+        {text:"随笔",link:"/writings/"},
         {text:"勿忘我",link:"/writings/forget_me_not",items:[
             {text:"--Vol.III",link:"/writings/fmn_vol_3"},
         ]},
         {text:"Are You ⬜⬜⬜⬜",link:"/writings/are_you_____"},
       ],
-      "keep_learning":{
+      "/keep_learning":{
           text:"Keep Learning",
           items:[
+            {text:"Keep Learning",link:"/keep_learning/"},
             {text:"读书笔记",link:"/keep_learning/reading"},
             {text:"C/C++学习",link:"/keep_learning/c_c++"},
             {text:"其他语言的学习",link:"/keep_learning/other_langs"},
             {text:"Linux的学习",link:"/keep_learning/archlinux"},
-          ]
+          ],
+          link:"/keep_learning/"
       },
       "/about":{
         text:"About Me",
