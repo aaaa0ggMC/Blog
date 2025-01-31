@@ -3,6 +3,7 @@ export default {
   base,
   title: "aaaa0ggmc's blog",
   description:"记住生活 Forget me Not(勿忘我)",
+  ignoreDeadLinks: true,
 
   head:[
     ["link",{rel:"icon",href:'${base}favicon.ico'}],
