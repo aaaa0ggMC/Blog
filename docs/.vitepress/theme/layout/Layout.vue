@@ -24,28 +24,30 @@
     </template>
   </Layout>
 </template>
- 
+
 <script lang="ts" setup>
 import Giscus from "@giscus/vue";
 import DefaultTheme from "vitepress/theme-without-fonts";
 import { watch } from "vue";
 import { inBrowser, useData } from "vitepress";
- 
+
 const { isDark, page } = useData();
- 
 const { Layout } = DefaultTheme;
- 
+
 watch(isDark, (dark) => {
   if (!inBrowser) return;
- 
+
   const iframe = document
     .querySelector("giscus-widget")
     ?.shadowRoot?.querySelector("iframe");
- 
-  iframe?.contentWindow?.postMessage(
-    { giscus: { setConfig: { theme: dark ? "dark" : "light" } } },
-    "https://giscus.app"
-  );
+
+  if (iframe) {
+    iframe.contentWindow?.postMessage(
+      { giscus: { setConfig: { theme: dark ? "dark" : "light" } } },
+      "https://giscus.app"
+    );
+  } else {
+    console.warn("Giscus iframe not found");
+  }
 });
 </script>
- 
