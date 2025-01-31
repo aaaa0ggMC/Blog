@@ -13,11 +13,11 @@ const init = () => {
     commentRef.value?.appendChild(wrap) // 把组件加入到想加载的地方 // querySelector的节点可自己根据自己想加载的地方设置
     gitTalk = new Gitalk({
       id: location.pathname, // 可选。默认为 location.href
-      owner: 'Richard-Zhang1019', // GitHub repository 所有者
+      owner: 'aaaa0ggMC', // GitHub repository 所有者
       repo: 'docs-comment', // GitHub repo
-      clientID: '74655634d116b2021bd7', // clientID
-      clientSecret: 'f173e6706df746b4ba8bbffd3cc817c119f5a844', // clientSecret
-      admin: ['Richard-Zhang1019'], // GitHub repo 所有者
+      clientID: 'Ov23liUZsOwk8dDcuP7e', // clientID
+      clientSecret: '242d1ef8a22f939cb685672a5dbae2234271b63b', // clientSecret
+      admin: ['aaaa0ggMC'], // GitHub repo 所有者
       labels: ['GitTalk'], // GitHub issue 标签
       proxy:
         'https://mellifluous-bombolone-049a57.netlify.app/github_access_token',
