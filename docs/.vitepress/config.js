@@ -19,13 +19,14 @@ export default {
       {text:'游戏人生',link:'/gaming_life'},
       {text:'长路漫漫',link:'/keep_exploring'},
       {text:'随笔',link:'/writings'},
+      {text:'探险',link:'/exploration'},
       {text:'关于',link:'/about'},
     ],
     sidebar:{
       "writings":[
-        {text:"随笔",link:"/writings/"},
-        {text:"勿忘我",link:"/writings/forget_me_not"},
-        {text:"---Vol.II",link:"/writings/forget_me_not/Vol2"},
+        {text:"勿忘我",link:"/writings/forget_me_not",items:[
+            {text:"--Vol.III",link:"/writings/fmn_vol_3"},
+        ]},
         {text:"Are You ⬜⬜⬜⬜",link:"/writings/are_you_____"},
       ],
       "keep_learning":{
