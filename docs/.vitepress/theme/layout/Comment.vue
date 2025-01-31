@@ -14,7 +14,7 @@ const init = () => {
     gitTalk = new Gitalk({
       id: location.pathname, // 可选。默认为 location.href
       owner: 'aaaa0ggMC', // GitHub repository 所有者
-      repo: 'docs-comment', // GitHub repo
+      repo: 'Blog', // GitHub repo
       clientID: 'Ov23liUZsOwk8dDcuP7e', // clientID
       clientSecret: '242d1ef8a22f939cb685672a5dbae2234271b63b', // clientSecret
       admin: ['aaaa0ggMC'], // GitHub repo 所有者
