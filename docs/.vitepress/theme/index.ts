@@ -1,13 +1,11 @@
-import DefaultTheme from 'vitepress/theme-without-fonts';
-import './custom.css';
-import LayoutIndex from './layout/Index.vue'
-import type { Theme } from 'vitepress'
 
-import 'gitalk/dist/gitalk.css'
-
-const theme: Theme = {  
-  ...DefaultTheme,
-  Layout: LayoutIndex
+import DefaultTheme from 'vitepress/theme'
+import Layout from './layout/Layout.vue' 
+ 
+export default {
+  Layout,
+  extends: DefaultTheme,
+  enhanceApp({ app }) {
+    //app.component('confetti', confetti)
+  },
 }
-
-export default theme;
