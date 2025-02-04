@@ -34,3 +34,12 @@ html {
 .tit{
     color:chocolate;
 }
+
+.ip{
+    background-color: black;
+    color: white;
+}
+
+.encrypt{
+    color: green;
+}

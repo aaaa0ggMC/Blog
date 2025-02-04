@@ -17,12 +17,19 @@ export default {
     nav:[
       {text:'学海无涯',link:'/keep_learning'},
       {text:'游戏人生',link:'/gaming_life'},
-      {text:'长路漫漫',link:'/keep_exploring'},
       {text:'随笔',link:'/writings'},
       {text:'探险',link:'/exploration'},
       {text:'关于',link:'/about'},
+      {text:'设置',link:'/settings'},
     ],
     sidebar:{
+      "/gaming_life":[
+        {text:"游戏人生",link:"/gaming_life"},
+        {text:"3C3U历险记",link:"/3c3u"},
+      ],
+      "/gaming_life/3c3u":[
+
+      ],
       "/exploration":[
         {text:"探险",link:"/exploration/"},
         {text:"自在、独行",link:"/exploration/2025.1.1"},
@@ -30,6 +37,15 @@ export default {
       "/writings":[
         {text:"随笔",link:"/writings/"},
         {text:"勿忘我",link:"/writings/forget_me_not",items:[
+            {text:"--Vol.I",items:[
+              {text:"Day1:Hypixel & Unturned",link:"/writings/fmn_vol_1_day1.md"},
+              {text:"Day2:Mien Kampf in 3C3U",link:"/writings/fmn_vol_1_day2.md"},
+              {text:"Day3:Configuring Kali Linux",link:"/writings/fmn_vol_1_day3.md"},
+              {text:"Day4:Windows Launcher & Toolkit",link:"/writings/fmn_vol_1_day4.md"},
+              {text:"Day5:Drawing",link:"/writings/fmn_vol_1_day5.md"},
+              {text:"Day6:Music",link:"/writings/fmn_vol_1_day6.md"},
+              {text:"Day7:Explore",link:"/writings/fmn_vol_1_day7.md"},
+            ]},
             {text:"--Vol.III",link:"/writings/fmn_vol_3"},
         ]},
         {text:"Are You ⬜⬜⬜⬜",link:"/writings/are_you_____"},

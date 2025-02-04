@@ -10,7 +10,7 @@
           repo-id="R_kgDONx0ynQ"
           category="Announcements"
           category-id="DIC_kwDONx0ync4CmgXp"
-          mapping="pathname"
+          mapping="url"
           strict="0"
           reactions-enabled="1"
           emit-metadata="0"
