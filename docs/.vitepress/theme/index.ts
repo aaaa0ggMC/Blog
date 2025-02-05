@@ -9,6 +9,7 @@ export default {
   Layout,
   extends: DefaultTheme,
   enhanceApp({ app }) {
+if(typeof window !== 'undefined'){
     // 动态加载 GPG.ts 并初始化 GPG 解密逻辑
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', () => {
@@ -27,5 +28,6 @@ export default {
         console.error('加载 GPG.ts 时出错:', error);
       });
     }
-  },
+  }
+},
 }
