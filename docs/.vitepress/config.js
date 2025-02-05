@@ -6,7 +6,7 @@ export default {
   ignoreDeadLinks: true,
 
   head:[
-    ["link",{rel:"icon",href:'${base}favicon.ico'}],
+    ["link",{rel:"icon",href:'/Blog/favicon.ico'}],
   ],
 
   themeConfig:{
