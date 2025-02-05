@@ -7,5 +7,4 @@
 
 ### GPG解码示例
 <p class='hl'>如果你输入的GPG密钥有效那么下列文字将可读而不是遗传base64的码：</p>
-<span class='encrypt'>jA0ECQMIddgXqV+hg0/K0koBHSh0pka8pulyrCa2IzfJWK2IGW/P0r9x3FwK6So6dRwwwRrw
-WbMR0OG+3WTs3CAA+2x5qrPeBhXtocmr024kDUUaJfcveRZ9fA==</span>
+<span class='encrypt'>ece338051234f96dd0bcda9f94b1f236f29fbdc73a29ac35fb92445b502db54df39f08ea969bf243ffedd354600258fc95f010bcd5cb43203661db2fab373be973c0adf33467973bb15ec37aa2cfc57c</span>
