@@ -14,6 +14,9 @@ export default {
       message: "Developed by aaaa0ggmc",
       //copyright: ""
     },
+    search: {
+      provider: 'local'
+    },
     nav:[
       {text:'学海无涯',link:'/keep_learning'},
       {text:'游戏人生',link:'/gaming_life'},
