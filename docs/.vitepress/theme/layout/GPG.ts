@@ -1,4 +1,5 @@
 import * as CryptoJS from 'crypto-js';
+import $ from 'jquery'
 
 // AES256 CFB encryption using Hex encoding
 export function encrypt(data: string, passKey: string | null = null): string {
@@ -87,7 +88,11 @@ export function decrypt(data: string, passKey: string | null = null): string {
 // Initialize GPG and decrypt content on page load
 export async function initGPG() {
     let interval = window.setInterval(() => {
-        console.log("Ready");
+        if($.isReady == null || !$.isReady){
+			console.log('Not ready.');
+			return;
+		}
+		console.log("Ready:JQUERY State:" + $.isReady);
         clearInterval(interval);
 
         const gpgKey = localStorage.getItem('gpg_key');
@@ -96,28 +101,37 @@ export async function initGPG() {
         if (target && gpgKey) {
             target.value = gpgKey;
         }
+		if(target){
+			target.onkeyup = function(e){
+				if(e.keyCode == 13){confirmGPG();narn("success","密钥更新成功",1000,"密钥设置");initGPG();}
+			}
+		}
 
         const encs = document.getElementsByClassName('encrypt');
         for (let i = 0; i < encs.length; ++i) {
             const element = encs[i] as HTMLElement;
 
             try {
-                let hexString = element.innerHTML.trim();
+				let hexString = "";
+				if(element.decState)hexString = element.dataset.hex;
+				else hexString = element.innerHTML.trim();
 
                 // Decrypt the Hex string using AES256 CFB
                 const decryptedText = decrypt(hexString); // Using decrypt here
+                element.dataset.hex = hexString; // Store the Hex code
 
                 console.log("Decrypted Text:", decryptedText); // Debugging decrypted text
                 if (decryptedText === hexString) {
                     // If decryption fails, show the raw Hex code as text, not HTML
-                    element.innerHTML = "查看Hex";
+                    element.innerHTML = "(解码失败,查看Hex)";
                     element.addEventListener('click', () => {
                         element.textContent = element.dataset.hex || ''; // Show the Hex string when clicked
                     });
-                    element.dataset.hex = hexString; // Store the Hex code
+					element.decState = 'failed';
                 } else {
                     element.innerHTML = decryptedText;
-                }
+					element.decState = 'success';
+				}
             } catch (error) {
                 console.error('Hex 解码失败:', error);
             }

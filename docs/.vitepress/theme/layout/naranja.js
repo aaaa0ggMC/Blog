@@ -254,7 +254,7 @@
                 self.$notification
               )
           }, 600);
-          if ($narjContainer.scrollTop < 20) {
+          if ($narjContainer.scrollTop < 20 && $newNotificationsAdvice != null) {
             $newNotificationsAdvice.classList.remove('active')
           }
         }, 150)

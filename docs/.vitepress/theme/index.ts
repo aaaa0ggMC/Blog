@@ -6,7 +6,10 @@ import { watch } from 'vue';
 // 引入需要的外部资源
 // import './layout/GPG';  // 确保 GPG.ts 会被加载
 import './custom.css';
-import './layout/popup.js'
+if (typeof document !=  'undefined'){
+	import('./layout/popup.js');
+	import('./layout/Switch');
+}
 
 export default {
   Layout,

@@ -1,6 +1,6 @@
 import './naranja.js'
 
-function narn (type) {
+/*function narn (type) {
    naranja()[type]({
    title: '新消息提示',
    text: '单击“接受”以创建新通知',
@@ -21,7 +21,28 @@ function narn (type) {
   }]
   })
  }
+*/
 
-if (typeof document !== 'undefined') {
-	document.body.narn = narn;
+function narn(type,message,timeoutTMs,stitle){
+	if(type == null)type = 'log';
+	if(message == null)message = '';
+	if(timeoutTMs == null)timeoutTMs = '1000';
+	if(stitle == null)stitle = '';
+	naranja()[type]({
+		title: stitle,
+		text: message,
+		timeout: timeoutTMs,
+		buttons:[
+		{
+			text:"确认",
+			click: function (e){
+				e.closeNotification();
+			}
+		}
+		]
+	});
+}
+
+if (typeof window !== 'undefined') {
+	window.narn = narn;
 }
