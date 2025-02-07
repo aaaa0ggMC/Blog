@@ -7,6 +7,7 @@ import { watch } from 'vue';
 // import './layout/GPG';  // 确保 GPG.ts 会被加载
 import './custom.css';
 if (typeof document !=  'undefined'){
+	import('./layout/naranja.js');
 	import('./layout/popup.js');
 	import('./layout/Switch');
 }
