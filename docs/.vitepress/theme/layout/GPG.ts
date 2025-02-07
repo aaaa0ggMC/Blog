@@ -132,15 +132,18 @@ export async function initGPG() {
                 const decryptedText = decrypt(hexString); // Using decrypt here
                 element.dataset.hex = hexString; // Store the Hex code
 
-                console.log("Decrypted Text:", decryptedText); // Debugging decrypted text
+                console.log("Decrypted Text:", decryptedText); 
+				const lst = () => {
+                        element.textContent = element.dataset.hex || ''; // Show the Hex string when clicked
+                    };
+				// Debugging decrypted text
                 if (decryptedText === hexString) {
                     // If decryption fails, show the raw Hex code as text, not HTML
                     element.innerHTML = "(解码失败,查看Hex)";
-                    element.addEventListener('click', () => {
-                        element.textContent = element.dataset.hex || ''; // Show the Hex string when clicked
-                    });
+                    element.addEventListener('click', lst);
 					element.decState = 'failed';
                 } else {
+					element.removeEventListener('click',lst);
                     element.innerHTML = decryptedText;
 					element.decState = 'success';
 				}
