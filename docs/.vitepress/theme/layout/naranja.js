@@ -1,15 +1,10 @@
-
-
 // bip sound
 // http://soundbible.com/mp3/A-Tone-His_Self-1266414414.mp3
 
 (function (factory) {
 
   // checking for exports avalible
-  if (typeof module !== 'undefined' && module.exports) {
-    // export Collection
-    module.exports = factory
-  } else {
+  if (typeof window !== 'undefined') {
     // else add to root variable
     window['naranja'] = factory
   }
@@ -276,7 +271,3 @@
     }
   }
 })
-
-if(typeof window != 'undefined'){
-	window.naranja = naranja;
-}
