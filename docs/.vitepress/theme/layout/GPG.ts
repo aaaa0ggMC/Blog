@@ -93,16 +93,6 @@ export async function initGPG() {
 			console.log('Not ready.');
 			return;
 		}
-		///GPG 负担了不该负担的活
-		{
-			///初始化settings界面的toggle
-			const page_id = document.getElementById('page_id') as HTMLElement | null;
-			//console.log(page_id.innerHTML);
-			if(page_id != null && page_id.innerHTML != null){
-				initPage(page_id.innerHTML);
-			}
-		}
-		///
 		
 		console.log("Ready:JQUERY State:" + $.isReady);
         clearInterval(interval);
@@ -151,6 +141,17 @@ export async function initGPG() {
                 console.error('Hex 解码失败:', error);
             }
         }
+		
+		///GPG 负担了不该负担的活
+		{
+			///初始化settings界面的toggle
+			const page_id = document.getElementById('page_id') as HTMLElement | null;
+			//console.log(page_id.innerHTML);
+			if(page_id != null && page_id.innerHTML != null){
+				initPage(page_id.innerHTML);
+			}
+		}
+		///
     }, 100);
 }
 
