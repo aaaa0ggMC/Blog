@@ -6,5 +6,6 @@ if(typeof window != 'undefined'){
 		}else{
 			if(onuchek)onuchek();
 		}
+		return tg.checked?true:false;
 	}
 }

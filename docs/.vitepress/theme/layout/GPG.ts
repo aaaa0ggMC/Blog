@@ -1,5 +1,6 @@
 import * as CryptoJS from 'crypto-js';
 import $ from 'jquery'
+import {initPage} from './SelectiveIniter'
 
 // AES256 CFB encryption using Hex encoding
 export function encrypt(data: string, passKey: string | null = null): string {
@@ -92,6 +93,17 @@ export async function initGPG() {
 			console.log('Not ready.');
 			return;
 		}
+		///GPG 负担了不该负担的活
+		{
+			///初始化settings界面的toggle
+			const page_id = document.getElementById('page_id') as HTMLElement | null;
+			//console.log(page_id.innerHTML);
+			if(page_id != null && page_id.innerHTML != null){
+				initPage(page_id.innerHTML);
+			}
+		}
+		///
+		
 		console.log("Ready:JQUERY State:" + $.isReady);
         clearInterval(interval);
 

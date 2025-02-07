@@ -23,8 +23,23 @@ import './naranja.js'
  }
 */
 
-function narn(type,message,timeoutTMs,stitle){
+function narn(type,message,timeoutTMs,stitle,fn){
 	if(type == null)type = 'log';
+	if(localStorage.disAllowLog=='true' && type=='log'){
+		console.log("Popup blocked.");
+		return;
+	}else if(localStorage.disAllowWarn=='true' && type=='warn'){
+		console.log("Popup blocked.");
+		return;
+	}else if(localStorage.disAllowSuc=='true' && type=='success'){
+		console.log("Popup blocked.");
+		return;
+	}else if(localStorage.disAllowErr=='true' && type=='error'){
+		console.log("Popup blocked.");
+		return;
+	}
+	
+	
 	if(message == null)message = '';
 	if(timeoutTMs == null)timeoutTMs = '1000';
 	if(stitle == null)stitle = '';
@@ -36,6 +51,7 @@ function narn(type,message,timeoutTMs,stitle){
 		{
 			text:"确认",
 			click: function (e){
+				if(fn)fn();
 				e.closeNotification();
 			}
 		}

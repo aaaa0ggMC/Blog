@@ -62,7 +62,12 @@ html {
     color: green;
 }
 
+#page_id{
+	display:none;
+}
+
 .naranja-notification {
+	z-index: 10000000;
 	height: 0;
 	box-sizing: content-box;
 	padding: 10px 0;
