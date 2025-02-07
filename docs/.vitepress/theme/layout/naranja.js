@@ -276,3 +276,7 @@
     }
   }
 })
+
+if(typeof window != 'undefined'){
+	window.naranja = naranja;
+}

@@ -43,7 +43,7 @@ function narn(type,message,timeoutTMs,stitle,fn){
 	if(message == null)message = '';
 	if(timeoutTMs == null)timeoutTMs = '1000';
 	if(stitle == null)stitle = '';
-	naranja()[type]({
+	window.naranja()[type]({
 		title: stitle,
 		text: message,
 		timeout: timeoutTMs,
