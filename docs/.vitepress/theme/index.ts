@@ -14,14 +14,19 @@ export default {
   setup() {
     const route = useRoute();
     
-	onMounted(() => {
+	onMounted(async () => {
 		console.log('Vue mounted.')
-		console.log('GPG.ts 加载成功');
-		GPGModule.initGPG();
 		if (typeof document !=  'undefined'){
-			import('./layout/naranja.js');
-			import('./layout/popup.js');
-			import('./layout/Switch');
+			await import('./layout/naranja.js');
+			await import('./layout/popup.js');
+			await import('./layout/Switch');
+		}
+		console.log('GPG.ts 加载成功');
+		GPGModule.initGPG();// Detect if in-browser to avoid errors in GitHub Actions
+		if (typeof window !== 'undefined') {
+			console.log('Running in browser');
+		} else {
+			console.log('Not in browser (GitHub Actions or other environments)');
 		}
     });
 	

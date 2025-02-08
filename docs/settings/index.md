@@ -10,9 +10,13 @@
 <span class='encrypt'>7cc9a3fdea1daaca1d729edd9c6e1a389d0981ae4e36bc08fa5f6fd399097ff5c80d773652fd5676fd27b466eacf58527bc5234903b701950f30fa0344bf854f7867733370ede826880e135bb7a8aae2a6a4317a353730297703bd04e8d3ec57895d3b3fc904d75e7d333c38d0f91bd1eff2a62cf13f8f02acf9f68986063906</span>
 
 ## 通知设置（右下角弹窗）
-允许"LOG"级别显示<span style='cursor:pointer;' class='ps' onclick='narn("log","测试")'>测试</span><div class='leave'><input id='sw_log' class="" onchange="var fn = function(){narn('success','设置成功');};localStorage.disAllowLog = !checkSwitch(this,fn,fn)" type="checkbox" /></div>
-允许"WARN"级别显示<span style='cursor:pointer;' class='ps' onclick='narn("warn","测试")'>测试</span><div class='leave'><input id='sw_war' class="" onchange="var fn = function(){narn('success','设置成功');};localStorage.disAllowWarn = !checkSwitch(this,fn,fn)" type="checkbox" /></div>
-允许"SUCCESS"级别显示<span style='cursor:pointer;' class='ps' onclick='narn("success","测试")'>测试</span><div class='leave'><input id='sw_suc' class="" onchange="var fn = function(){narn('success','设置成功');};localStorage.disAllowSuc = !checkSwitch(this,fn,fn)" type="checkbox" /></div>
-允许"ERROR"级别显示<span style='cursor:pointer;' class='ps' onclick='narn("error","测试")'>测试</span><div class='leave'><input id='sw_err' class="" onchange="var fn = function(){narn('success','设置成功');};localStorage.disAllowErr = !checkSwitch(this,fn,fn)" type="checkbox" /></div>
+允许"LOG"级别显示<span style='cursor:pointer;' class='ps' onclick='narn("log","测试")'>测试</span><span><input id='sw_log' class="" onchange="var fn = function(){narn('success','设置成功');};localStorage.disAllowLog = !checkSwitch(this,fn,fn)" type="checkbox" /></span>
+<br>
+允许"WARN"级别显示<span style='cursor:pointer;' class='ps' onclick='narn("warn","测试")'>测试</span><span><input id='sw_war' class="" onchange="var fn = function(){narn('success','设置成功');};localStorage.disAllowWarn = !checkSwitch(this,fn,fn)" type="checkbox" /></span>
+<br>
+允许"SUCCESS"级别显示<span style='cursor:pointer;' class='ps' onclick='narn("success","测试")'>测试</span><span><input id='sw_suc' class="" onchange="var fn = function(){narn('success','设置成功');};localStorage.disAllowSuc = !checkSwitch(this,fn,fn)" type="checkbox" /></span>
+<br>
+允许"ERROR"级别显示<span style='cursor:pointer;' class='ps' onclick='narn("error","测试")'>测试</span><span><input id='sw_err' class="" onchange="var fn = function(){narn('success','设置成功');};localStorage.disAllowErr = !checkSwitch(this,fn,fn)" type="checkbox" /></span>
+<br>
 
 <div id='page_id'>settings</div>

@@ -2,6 +2,8 @@ import * as CryptoJS from 'crypto-js';
 import $ from 'jquery'
 import {initPage} from './SelectiveIniter'
 
+let interval = 0;
+
 // AES256 CFB encryption using Hex encoding
 export function encrypt(data: string, passKey: string | null = null): string {
     const key = passKey || localStorage.getItem('enc_key');
@@ -88,7 +90,7 @@ export function decrypt(data: string, passKey: string | null = null): string {
 
 // Initialize GPG and decrypt content on page load
 export async function initGPG() {
-    let interval = window.setInterval(() => {
+    interval = window.setInterval(() => {
         if($.isReady == null || !$.isReady){
 			console.log('Not ready.');
 			return;
@@ -167,11 +169,4 @@ if (typeof window !== 'undefined') {
             console.log('Set AES256 Key:', target.value);
         }
     };
-}
-
-// Detect if in-browser to avoid errors in GitHub Actions
-if (typeof window !== 'undefined') {
-    console.log('Running in browser');
-} else {
-    console.log('Not in browser (GitHub Actions or other environments)');
 }
