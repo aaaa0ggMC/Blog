@@ -1,6 +1,6 @@
-# <center id='aboutme'>About Me</center>
-<center><img src="/logo.png" /></center>
-<p class='ps'><center>An explorer</center></p>
+# <p align='center' id='aboutme'>About Me</p>
+<p align='center'><img src="/logo.png" /></p>
+<p class='ps' align='center'>An explorer</p>
 
 ## 个人介绍 2025/1/30
 ><p style='text-indent:1em;'>我目前是一位高中生，正在苦逼地读高三，今年6月份高考，选的是“物化生”经典三组合，成绩中等偏上，基本算得上是高中里的咸鱼一条。
