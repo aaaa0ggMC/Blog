@@ -7,11 +7,6 @@ import * as GPGModule from './layout/GPG';
 // 引入需要的外部资源
 // import './layout/GPG';  // 确保 GPG.ts 会被加载
 import './custom.css';
-if (typeof document !=  'undefined'){
-	import('./layout/naranja.js');
-	import('./layout/popup.js');
-	import('./layout/Switch');
-}
 
 export default {
   Layout,
@@ -23,6 +18,11 @@ export default {
 		console.log('Vue mounted.')
 		console.log('GPG.ts 加载成功');
 		GPGModule.initGPG();
+		if (typeof document !=  'undefined'){
+			import('./layout/naranja.js');
+			import('./layout/popup.js');
+			import('./layout/Switch');
+		}
     });
 	
     watch(
