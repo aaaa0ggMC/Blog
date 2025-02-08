@@ -10,7 +10,7 @@ export function initPage(page_id){
 		}
 		break;
 	case 'settings':
-		console.log("Init settings page.");
+		console.log("Init settings page.");/*
 		var ele = document.getElementById('sw_log') as HTMLInputElement | null;
 		if(ele)ele.checked = localStorage.disAllowLog=='false'?true:false;
 		
@@ -21,7 +21,7 @@ export function initPage(page_id){
 		ele = document.getElementById('sw_war') as HTMLInputElement | null;
 		if(ele){
 			ele.checked = localStorage.disAllowWarn=='false'?true:false;
-		}
+		}*/
 		break;
 	}
 }
