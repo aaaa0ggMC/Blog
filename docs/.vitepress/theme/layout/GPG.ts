@@ -117,6 +117,10 @@ export async function initGPG() {
 
             try {
 				let hexString = "";
+				if(element.innerHTML == ""){
+					console.log("Skipped ",element);
+					continue;
+				}
 				if(element.decState)hexString = element.dataset.hex;
 				else hexString = element.innerHTML.trim();
 
@@ -126,18 +130,32 @@ export async function initGPG() {
 
                 console.log("Decrypted Text:", decryptedText); 
 				const lst = () => {
-                        element.textContent = element.dataset.hex || ''; // Show the Hex string when clicked
-                    };
+					if(element.decState == 'success')return;
+					element.textContent = element.dataset.hex || ''; // Show the Hex string when clicked
+                };
 				// Debugging decrypted text
                 if (decryptedText === hexString) {
-                    // If decryption fails, show the raw Hex code as text, not HTML
-                    element.innerHTML = "(解码失败,查看Hex)";
-                    element.addEventListener('click', lst);
+					if( element.attributes.fallback != null){
+						element.innerHTML = element.attributes.fallback.value;
+						element.title = '解密失败';
+					}else{
+						// If decryption fails, show the raw Hex code as text, not HTML
+						element.innerHTML = "(解码失败,查看Hex)";
+						element.addEventListener('click', lst);
+					}
 					element.decState = 'failed';
+					element.className += " encFail";
                 } else {
+					if(element.attributes.changeTitle != null){
+						const titleEle = document.head.getElementsByTagName('title')[0];
+						const index = titleEle.innerHTML.indexOf('|');
+						
+						titleEle.innerHTML = decryptedText + " " + (index!=-1?titleEle.innerHTML.substr(index):"");
+					}
 					element.removeEventListener('click',lst);
                     element.innerHTML = decryptedText;
 					element.decState = 'success';
+					element.className += " encSuc";
 				}
             } catch (error) {
                 console.error('Hex 解码失败:', error);
