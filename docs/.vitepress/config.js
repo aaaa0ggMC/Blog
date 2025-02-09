@@ -42,7 +42,7 @@ export default {
         {text:"勿忘我",link:"/writings/forget_me_not",items:[
             {text:"--Vol.I",items:[
               {text:"Day1:Hypixel & Unturned",link:"/writings/fmn_vol_1_day1.md"},
-              {text:"Day2:Mien Kampf in 3C3U",link:"/writings/fmn_vol_1_day2.md"},
+              {text:"Day2:Mein Kampf in 3C3U",link:"/writings/fmn_vol_1_day2.md"},
               {text:"Day3:Configuring Kali Linux",link:"/writings/fmn_vol_1_day3.md"},
               {text:"Day4:Windows Launcher & Toolkit",link:"/writings/fmn_vol_1_day4.md"},
               {text:"Day5:Drawing",link:"/writings/fmn_vol_1_day5.md"},
