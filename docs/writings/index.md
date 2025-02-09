@@ -10,7 +10,20 @@
 
 <p class='ins'>其余的便是杂七杂八的东西了，很多偏向于周记:</p>
 
+## 诗与远方
+有些东西还很青涩hh，但还是摆出来了，毕竟"<span class='hl'>时无重至，华不再阳</span>"。<br>
+[2023/12/1X](./poems/rusted_clock.md)|停摆的钟 <br>
+[2023/12/20](./poems/so_called_grow_up.md)|<span class='hl'>所谓成长</span> <br>
+[2023/12/20](./poems/somebody.md)|有些人 <br>
+[2023/12/21](./poems/poem.md)|诗 <br>
+[2023/12/21](./poems/leader_to_death.md)|引路人 <span class='ps'>这篇精神状态不太好</span> <br>
+[2023/12/25](./poems/for_myself.md)|赠给自己 <span class='ps'>这不是诗，这是拉丁语”名言“</span> <br>
+[2024/01/22](./poems/snowing_night.md)|<span class='hl'>雪夜</span> <br>
+[2024/09/06](./poems/why_recall.md)|为何念念不忘 <br>
+[2024/09/07](./poems/afraid.md)|害怕 <br>
+[2025/02/06](./poems/true_emptiness)|真正的虚无 <br>
+
 ## 2025年 - 上
-[2025/01/19](./people_0.md)|<span class='hl encrypt'>b694c2cb40b6bb9646d6fec5e0c6519cd44985f9773a47fe4bb431ef6ca5d17d</span>
+[2025/01/19](./people_0.md)|<span class='encrypt'>b694c2cb40b6bb9646d6fec5e0c6519cd44985f9773a47fe4bb431ef6ca5d17d</span>
 <br>
 [2025/02/02](./lunaryear_summary_2025.md)|<span class='hl'>年假总结</span>
