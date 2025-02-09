@@ -52,6 +52,7 @@ export default {
             {text:"--Vol.III",link:"/writings/fmn_vol_3"},
         ]},
         {text:"Are You ⬜⬜⬜⬜",link:"/writings/are_you_____"},
+        {text:"纪梦",link:"/writings/dreams"},
       ],
       "/keep_learning":{
           text:"Keep Learning",
