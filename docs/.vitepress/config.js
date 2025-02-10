@@ -39,8 +39,8 @@ export default {
       ],
       "/writings":[
         {text:"随笔",link:"/writings/"},
-        {text:"勿忘我",link:"/writings/forget_me_not",items:[
-            {text:"--Vol.I",items:[
+        {text:"勿忘我",collapsed: true,link:"/writings/forget_me_not",items:[
+            {text:"--Vol.I",collapsed: true,items:[
               {text:"Day1:Hypixel & Unturned",link:"/writings/fmn_vol_1_day1.md"},
               {text:"Day2:Mein Kampf in 3C3U",link:"/writings/fmn_vol_1_day2.md"},
               {text:"Day3:Configuring Kali Linux",link:"/writings/fmn_vol_1_day3.md"},
@@ -49,13 +49,14 @@ export default {
               {text:"Day6:Music",link:"/writings/fmn_vol_1_day6.md"},
               {text:"Day7:Explore",link:"/writings/fmn_vol_1_day7.md"},
             ]},
-            {text:"--Vol.III",link:"/writings/fmn_vol_3"},
+            {text:"--Vol.III",collapsed: true,link:"/writings/fmn_vol_3"},
         ]},
         {text:"Are You ⬜⬜⬜⬜",link:"/writings/are_you_____"},
         {text:"纪梦",link:"/writings/dreams"},
       ],
       "/keep_learning":{
           text:"Keep Learning",
+          collapsed: true,
           items:[
             {text:"Keep Learning",link:"/keep_learning/"},
             {text:"读书笔记",link:"/keep_learning/reading"},
