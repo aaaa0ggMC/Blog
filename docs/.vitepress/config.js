@@ -73,6 +73,11 @@ export default {
         ]
       }
     },
+    returnToTopLabel: '返回顶部',
+    sidebarMenuLabel: '菜单',
+    outlineTitle: '目录',
+    lastUpdatedText: '最后更新于',
+    lastUpdated: true,
     docFooter:{
       prev:"上一篇",
       next:"下一篇",
