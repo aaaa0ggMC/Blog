@@ -11,6 +11,18 @@ export function initPage(page_id){
 		break;
 	case 'settings':
 		console.log("Init settings page.");
+		if(localStorage.disAllowLog == null){
+			localStorage.disAllowLog = 'false';
+		}
+		if(localStorage.disAllowWarn == null){
+			localStorage.disAllowWarn = 'false';
+		}
+		if(localStorage.disAllowSuc == null){
+			localStorage.disAllowSuc = 'false';
+		}
+		if(localStorage.disAllowErr == null){
+			localStorage.disAllowErr = 'false';
+		}
 		var ele = document.getElementById('sw_log') as HTMLInputElement | null;
 		if(ele)ele.checked = localStorage.disAllowLog=='false'?true:false;
 		
