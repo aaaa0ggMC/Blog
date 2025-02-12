@@ -88,6 +88,59 @@ export function decrypt(data: string, passKey: string | null = null): string {
     }
 }
 
+function decryptData(name : string,key : string){
+	const encs = document.getElementsByClassName(name);
+	for (let i = 0; i < encs.length; ++i) {
+		const element = encs[i] as HTMLElement;
+
+		try {
+			let hexString = "";
+			if(element.innerHTML == ""){
+				console.log("Skipped ",element);
+				continue;
+			}
+			if(element.decState)hexString = element.dataset.hex;
+			else hexString = element.innerHTML.trim();
+
+			// Decrypt the Hex string using AES256 CFB
+			const decryptedText = decrypt(hexString,key); // Using decrypt here
+			element.dataset.hex = hexString; // Store the Hex code
+
+			console.log("Decrypted Text:", decryptedText); 
+			const lst = () => {
+				if(element.decState == 'success')return;
+				element.textContent = element.dataset.hex || ''; // Show the Hex string when clicked
+			};
+			// Debugging decrypted text
+			if (decryptedText === hexString) {
+				if( element.attributes.fallback != null){
+					element.innerHTML = element.attributes.fallback.value;
+					element.title = '解密失败';
+				}else{
+					// If decryption fails, show the raw Hex code as text, not HTML
+					element.innerHTML = "(解码失败,查看Hex)";
+					element.addEventListener('click', lst);
+				}
+				element.decState = 'failed';
+				element.className += " encFail";
+			} else {
+				if(element.attributes.changeTitle != null){
+					const titleEle = document.head.getElementsByTagName('title')[0];
+					const index = titleEle.innerHTML.indexOf('|');
+					
+					titleEle.innerHTML = decryptedText + " " + (index!=-1?titleEle.innerHTML.substr(index):"");
+				}
+				element.removeEventListener('click',lst);
+				element.innerHTML = decryptedText;
+				element.decState = 'success';
+				element.className += " encSuc";
+			}
+		} catch (error) {
+			console.error('Hex 解码失败:', error);
+		}
+	}
+}
+
 // Initialize GPG and decrypt content on page load
 export async function initGPG() {
     interval = window.setInterval(() => {
@@ -100,67 +153,29 @@ export async function initGPG() {
         clearInterval(interval);
 
         const gpgKey = localStorage.getItem('gpg_key');
+        const secKey = localStorage.getItem('sec_key');
         const target = document.getElementById('gpg_key') as HTMLInputElement | null;
+        const targetSec = document.getElementById('sec_key') as HTMLInputElement | null;
 
         if (target && gpgKey) {
             target.value = gpgKey;
+        }
+		if (targetSec && secKey) {
+            targetSec.value = secKey;
         }
 		if(target){
 			target.onkeyup = function(e){
 				if(e.keyCode == 13){confirmGPG();narn("success","密钥更新成功",1000,"密钥设置");initGPG();}
 			}
 		}
+		if(targetSec){
+			targetSec.onkeyup = function(e){
+				if(e.keyCode == 13){confirmGPG();narn("success","密钥更新成功",1000,"密钥设置");initGPG();}
+			}
+		}
 
-        const encs = document.getElementsByClassName('encrypt');
-        for (let i = 0; i < encs.length; ++i) {
-            const element = encs[i] as HTMLElement;
-
-            try {
-				let hexString = "";
-				if(element.innerHTML == ""){
-					console.log("Skipped ",element);
-					continue;
-				}
-				if(element.decState)hexString = element.dataset.hex;
-				else hexString = element.innerHTML.trim();
-
-                // Decrypt the Hex string using AES256 CFB
-                const decryptedText = decrypt(hexString); // Using decrypt here
-                element.dataset.hex = hexString; // Store the Hex code
-
-                console.log("Decrypted Text:", decryptedText); 
-				const lst = () => {
-					if(element.decState == 'success')return;
-					element.textContent = element.dataset.hex || ''; // Show the Hex string when clicked
-                };
-				// Debugging decrypted text
-                if (decryptedText === hexString) {
-					if( element.attributes.fallback != null){
-						element.innerHTML = element.attributes.fallback.value;
-						element.title = '解密失败';
-					}else{
-						// If decryption fails, show the raw Hex code as text, not HTML
-						element.innerHTML = "(解码失败,查看Hex)";
-						element.addEventListener('click', lst);
-					}
-					element.decState = 'failed';
-					element.className += " encFail";
-                } else {
-					if(element.attributes.changeTitle != null){
-						const titleEle = document.head.getElementsByTagName('title')[0];
-						const index = titleEle.innerHTML.indexOf('|');
-						
-						titleEle.innerHTML = decryptedText + " " + (index!=-1?titleEle.innerHTML.substr(index):"");
-					}
-					element.removeEventListener('click',lst);
-                    element.innerHTML = decryptedText;
-					element.decState = 'success';
-					element.className += " encSuc";
-				}
-            } catch (error) {
-                console.error('Hex 解码失败:', error);
-            }
-        }
+        decryptData('encrypt',gpgKey);
+        decryptData('encpp',secKey);
 		
 		///GPG 负担了不该负担的活
 		{
@@ -184,7 +199,12 @@ if (typeof window !== 'undefined') {
         const target = document.getElementById('gpg_key') as HTMLInputElement | null;
         if (target) {
             localStorage.setItem('gpg_key', target.value);
-            console.log('Set AES256 Key:', target.value);
+            console.log('Set Normal AES256 Key:', target.value);
+        }
+		const target2 = document.getElementById('sec_key') as HTMLInputElement | null;
+        if (target2) {
+            localStorage.setItem('sec_key', target2.value);
+            console.log('Set More Private AES256 Key:', target2.value);
         }
     };
 }
