@@ -1,5 +1,12 @@
+import { withMermaid } from "vitepress-plugin-mermaid";
+
 const base = "/Blog/"
-export default {
+export default withMermaid({
+  mermaid: {
+  },
+  mermaidPlugin: {
+    class: "mermaid my-class"
+  },
   base,
   title: "aaaa0ggmc's blog",
   description:"记住生活 Forget me Not(勿忘我)",
@@ -101,4 +108,4 @@ export default {
       ]
     }
   }
-};
+});
