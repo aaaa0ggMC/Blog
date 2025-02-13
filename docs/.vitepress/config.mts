@@ -1,7 +1,7 @@
 import { withMermaid } from "vitepress-plugin-mermaid";
 
 const base = "/Blog/"
-export default withMermaid({
+export default{
   mermaid: {
   },
   mermaidPlugin: {
@@ -108,4 +108,4 @@ export default withMermaid({
       ]
     }
   }
-});
+};
