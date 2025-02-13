@@ -40,6 +40,6 @@ export default {
     );
   },
   enhanceApp({ app }) {
-    
+  
   }
 };
