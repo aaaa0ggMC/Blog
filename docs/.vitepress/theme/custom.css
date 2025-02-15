@@ -6,8 +6,8 @@
 }
 
 :root {
-    --vp-font-family-base: canger,sans-serif;
-    --vp-font-family-mono: canger,sans-serif;
+    --vp-font-family-base: canger,sans-serif !important;
+    --vp-font-family-mono: canger,sans-serif !important;
 }
 
 html {
