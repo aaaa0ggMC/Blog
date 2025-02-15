@@ -1,6 +1,7 @@
 import * as CryptoJS from 'crypto-js';
 import $ from 'jquery'
 import {initPage} from './SelectiveIniter'
+import { fallback_img } from './Data';
 
 let interval = 0;
 
@@ -92,14 +93,19 @@ function decryptData(name : string,key : string){
 	const encs = document.getElementsByClassName(name);
 	for (let i = 0; i < encs.length; ++i) {
 		const element = encs[i] as HTMLElement;
+		let storeInContent = false;
 
 		try {
 			let hexString = "";
-			if(element.innerHTML == ""){
+			if(element.innerHTML == "" && element.attributes.content == null){
 				console.log("Skipped ",element);
 				continue;
+			}else if(element.innerHTML==null || element.innerHTML == ""){
+				storeInContent = true;
 			}
+			//console.log("Dealing ",element);
 			if(element.decState)hexString = element.dataset.hex;
+			else if(storeInContent) hexString = element.attributes.content.value;
 			else hexString = element.innerHTML.trim();
 
 			// Decrypt the Hex string using AES256 CFB
@@ -114,11 +120,27 @@ function decryptData(name : string,key : string){
 			// Debugging decrypted text
 			if (decryptedText === hexString) {
 				if( element.attributes.fallback != null){
-					element.innerHTML = element.attributes.fallback.value;
+					if(!storeInContent)element.innerHTML = element.attributes.fallback.value;
+					else {
+						///fallback values
+						const tagName = element.tagName;
+						if(element.attributes.forceFallback == null){
+							if(tagName == 'IMG'){
+								element.attributes.content.value = fallback_img;
+							}else element.attributes.content.value = element.attributes.fallback.value;
+						}else element.attributes.content.value = element.attributes.fallback.value;
+					}
 					element.title = '解密失败';
 				}else{
 					// If decryption fails, show the raw Hex code as text, not HTML
-					element.innerHTML = "(解码失败,查看Hex)";
+					if(!storeInContent)element.innerHTML = "(解码失败,查看Hex)";
+					else {
+						///fallback values
+						const tagName = element.tagName;
+						if(tagName == 'IMG'){
+							element.attributes.content.value = fallback_img;
+						}else element.attributes.content.value = "(解码失败,查看Hex)";
+					}
 					element.addEventListener('click', lst);
 				}
 				element.decState = 'failed';
@@ -131,7 +153,8 @@ function decryptData(name : string,key : string){
 					titleEle.innerHTML = decryptedText + " " + (index!=-1?titleEle.innerHTML.substr(index):"");
 				}
 				element.removeEventListener('click',lst);
-				element.innerHTML = decryptedText;
+				if(!storeInContent)element.innerHTML = decryptedText;
+				else element.attributes.content.value = decryptedText;
 				element.decState = 'success';
 				element.className += " encSuc";
 			}
@@ -184,7 +207,7 @@ export async function initGPG() {
 			//console.log(page_id.innerHTML);
 			if(page_id != null && page_id.innerHTML != null){
 				initPage(page_id.innerHTML);
-			}
+			}else initPage("");
 		}
 		///
     }, 100);

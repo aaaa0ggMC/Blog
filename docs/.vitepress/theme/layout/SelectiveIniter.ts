@@ -1,3 +1,4 @@
+import { base } from './Data';
 
 export function initPage(page_id){
 	//console.log(page_id);
@@ -35,5 +36,17 @@ export function initPage(page_id){
 			ele.checked = localStorage.disAllowWarn=='false'?true:false;
 		}
 		break;
+	}
+	///Generate Images
+	const imgs = document.getElementsByTagName('img');
+	for(let i = 0;i < imgs.length;++i){
+		const obj = imgs[i] as HTMLImageElement;
+		if(obj.attributes.skipProc != null)continue;
+		const useCDN = localStorage.getItem('useCDN');
+		let tpath = (obj.attributes.content==null || obj.attributes.content.value == "")?obj.src:obj.attributes.content.value;
+		if(tpath[0] == '/'){
+			tpath = base + tpath.substr(1);
+		}
+		obj.src = tpath;
 	}
 }

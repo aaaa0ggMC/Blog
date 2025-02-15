@@ -14,6 +14,10 @@ html {
     font-family: var(--vp-font-family-base);
 }
 
+.encFail{
+	color: green;
+}
+
 .ps{
     color: gray;
     scale: 90% 90%;

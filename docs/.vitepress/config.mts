@@ -1,6 +1,6 @@
 import { withMermaid } from "vitepress-plugin-mermaid";
+import { base } from './theme/layout/Data.ts';
 
-const base = "/Blog/"
 export default withMermaid({
   mermaid: {
   },
