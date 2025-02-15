@@ -89,8 +89,10 @@ export function decrypt(data: string, passKey: string | null = null): string {
     }
 }
 
-function decryptData(name : string,key : string){
+function decryptData(name : string,key : string,title : string = "") {
 	const encs = document.getElementsByClassName(name);
+	let result = 0;
+
 	for (let i = 0; i < encs.length; ++i) {
 		const element = encs[i] as HTMLElement;
 		let storeInContent = false;
@@ -122,13 +124,7 @@ function decryptData(name : string,key : string){
 				if( element.attributes.fallback != null){
 					if(!storeInContent)element.innerHTML = element.attributes.fallback.value;
 					else {
-						///fallback values
-						const tagName = element.tagName;
-						if(element.attributes.forceFallback == null){
-							if(tagName == 'IMG'){
-								element.attributes.content.value = fallback_img;
-							}else element.attributes.content.value = element.attributes.fallback.value;
-						}else element.attributes.content.value = element.attributes.fallback.value;
+						element.attributes.content.value = element.attributes.fallback.value;
 					}
 					element.title = '解密失败';
 				}else{
@@ -146,6 +142,7 @@ function decryptData(name : string,key : string){
 				element.decState = 'failed';
 				element.className += " encFail";
 			} else {
+				result++;
 				if(element.attributes.changeTitle != null){
 					const titleEle = document.head.getElementsByTagName('title')[0];
 					const index = titleEle.innerHTML.indexOf('|');
@@ -161,6 +158,11 @@ function decryptData(name : string,key : string){
 		} catch (error) {
 			console.error('Hex 解码失败:', error);
 		}
+	}
+	if(encs.length > 0){
+		if(result < encs.length){
+			window.narn("error","网页部分解密失败,进度" + result + "/" + encs.length ,1000,title);
+		}else window.narn("success","网页解密成功,进度" + result + "/" + encs.length ,1000,title);
 	}
 }
 
@@ -197,8 +199,8 @@ export async function initGPG() {
 			}
 		}
 
-        decryptData('encrypt',gpgKey);
-        decryptData('encpp',secKey);
+        decryptData('encrypt',gpgKey,"一般解密");
+        decryptData('encpp',secKey,"更私密解密");
 		
 		///GPG 负担了不该负担的活
 		{

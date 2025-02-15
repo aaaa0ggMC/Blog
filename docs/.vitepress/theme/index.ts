@@ -8,6 +8,12 @@ import * as GPGModule from './layout/GPG';
 // import './layout/GPG';  // 确保 GPG.ts 会被加载
 import './custom.css';
 
+if (typeof document !=  'undefined'){
+	await import('./layout/naranja.js');
+	await import('./layout/popup.js');
+	await import('./layout/Switch');
+}
+
 export default {
   Layout,
   extends: DefaultTheme,
@@ -16,11 +22,6 @@ export default {
     
 	onMounted(async () => {
 		console.log('Vue mounted.')
-		if (typeof document !=  'undefined'){
-			await import('./layout/naranja.js');
-			await import('./layout/popup.js');
-			await import('./layout/Switch');
-		}
 		console.log('GPG.ts 加载成功');
 		GPGModule.initGPG();// Detect if in-browser to avoid errors in GitHub Actions
 		if (typeof window !== 'undefined') {
