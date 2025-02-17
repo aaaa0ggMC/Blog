@@ -14,6 +14,19 @@ html {
     font-family: var(--vp-font-family-base);
 }
 
+.imgGroup {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 60px;
+}
+
+.imgCaption {
+	text-align: center;
+	color: #8b8b8b;
+}
+
 .encFail{
 	color: green;
 }
