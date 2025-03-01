@@ -1,5 +1,5 @@
 # <p align='center' id='aboutme'>About Me</p>
-<p align='center'><img src="/logo.png" /></p>
+<p align='center'><img content="/logo.png" /></p>
 <p class='ps' align='center'>An explorer</p>
 
 ## 个人介绍 2025/1/30
@@ -9,7 +9,7 @@
 ><p style='text-indent:1em;'>热衷于C++,目前聚焦于我的长期项目（已迁移至Linux版本）<a href='https://github.com/aaaa0ggMC/UnlimitedLife-Linux' target='_blank'>UnlimitedLife-Linux</a></p>
 >2.艺术 Art <span class='ps'>(ps:这里算狭义艺术[美术]算了)</span><br>
 ><p style='text-indent:1em;'>一直喜欢美术，喜欢<span class='hl' title='超现实主义的作品看似“无意义”，但是既然能吸引你去看，去疑惑，那么它就有意义'>超现实主义</span>与<span class='hl' title='我觉得达达主义有种自由不羁的感觉'>达达主义</span>。最近喜欢上了莫奈的那种虚幻却又真实的画。特别是那张<span class='hl'>打阳伞的女人</span>,我同学也说好好看，这里忍不住拿出来分享一下</p>
-> <p align='center'><a target='_blank' href='https://zh.wikipedia.org/zh-cn/%E6%89%93%E9%98%B3%E4%BC%9E%E7%9A%84%E5%A5%B3%E4%BA%BA'><img title='打阳伞的女人（来自wikipedia）' src='/art/monet_unbre_woman.jpg'></img></a></p>
+> <p align='center'><a target='_blank' href='https://zh.wikipedia.org/zh-cn/%E6%89%93%E9%98%B3%E4%BC%9E%E7%9A%84%E5%A5%B3%E4%BA%BA'><img title='打阳伞的女人（来自wikipedia）' content='/art/monet_unbre_woman.jpg'></img></a></p>
 ><p class='ps' style='text-indent:1em;' align='center' >你难道不觉得这张图片的光十分吸引人吗？</p>
 >3.音乐 Music <br>
 ><p style='text-indent:1em;'>几乎是什么都听，中文英文日文俄语德语......既听西方的Phonk,R&B,Jazz也听中国的戏曲，民歌。我的网易云:<a target='_blank' href='https://music.163.com/#/user/home?id=3245370284'>RockonDreaming</a></p>
