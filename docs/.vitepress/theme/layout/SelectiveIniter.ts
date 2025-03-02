@@ -1,4 +1,5 @@
 import { base } from './Data';
+let timeOut = 0;
 
 // 检测字体文件是否已加载
 function checkFont(name){
@@ -30,11 +31,18 @@ function loadFont(_fontName, _fontUrl) {
 	);
 	console.log('开始加载字体：', _fontName);
 
+	timeOut = setTimeout(() => {
+		window.narn('log','字体正在加载，请耐心等待......',1500,'字体加载中');	
+	}
+	, 5000);
+
 	prefont.load().then(function (loaded_face) {
 		document.fonts.add(loaded_face);
-		console.log('字体加载成功', loaded_face, document.fonts)
+		console.log('字体加载成功', loaded_face, document.fonts);
+		clearTimeout(timeOut);
 	}).catch(function (error) {
 		console.log('字体加载失败', error)
+		clearTimeout(timeOut);
 	})
 }
 
