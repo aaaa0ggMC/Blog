@@ -11,5 +11,5 @@
 
 ## 解析
 那时想到了萨尔瓦多·达利的《记忆的永恒》
-![img](/art/The_Persistence_of_Memory.jpg)
+<img content="/art/The_Persistence_of_Memory.jpg" />
 然后整个人又比较颓废，于是文字也比较伤感，写自己陷入了虚无中，无论时间流不流动，我都像个死物一样静止。
