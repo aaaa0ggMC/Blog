@@ -1,13 +1,13 @@
-@font-face {
+/*@font-face {
     font-family: 'canger';
     src: url(/fonts/canger.ttf) format('truetype');
     font-weight: 200 900;
     font-stretch: 100% 100%;
-}
+}*/
 
 :root {
-    --vp-font-family-base: canger,sans-serif !important;
-    --vp-font-family-mono: canger,sans-serif !important;
+	--vp-font-family-base: canger, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif !important;
+	--vp-font-family-mono: canger, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif !important;
 }
 
 html {

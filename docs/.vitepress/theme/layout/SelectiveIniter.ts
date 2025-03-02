@@ -1,5 +1,44 @@
 import { base } from './Data';
 
+// 检测字体文件是否已加载
+function checkFont(name){
+	let values = document.fonts.values();
+	let isHave=false;
+	let item = values.next();
+	while(!item.done&&!isHave)
+	{
+		let fontFace=item.value;
+		if(fontFace.family==name)
+		{
+			isHave=true;
+		}
+		item=values.next();
+	}
+	return isHave;
+}
+
+// 字体加载
+function loadFont(_fontName, _fontUrl) {
+	if(checkFont(_fontName)) {
+		console.log('已有字体：', _fontName)
+		return
+	}
+
+	let prefont = new FontFace(
+		_fontName,
+		'url(' + _fontUrl + ')'
+	);
+	console.log('开始加载字体：', _fontName);
+
+	prefont.load().then(function (loaded_face) {
+		document.fonts.add(loaded_face);
+		console.log('字体加载成功', loaded_face, document.fonts)
+	}).catch(function (error) {
+		console.log('字体加载失败', error)
+	})
+}
+
+
 export function initPage(page_id){
 	//console.log(page_id);
 	switch(page_id){
@@ -59,4 +98,8 @@ export function initPage(page_id){
 		}
 		obj.src = tpath;
 	}
+	///load fonts
+	if(localStorage.useGH == 'true'){
+		loadFont('canger','https://raw.githubusercontent.com/aaaa0ggMC/Blog_PicBackend/main/fonts/canger.ttf');
+	}else loadFont('canger','https://cdn.jsdelivr.net/gh/aaaa0ggMC/Blog_PicBackend@main/fonts/canger.ttf');
 }
