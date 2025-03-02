@@ -27,7 +27,7 @@
 允许"ERROR"级别显示<span style='cursor:pointer;' class='ps' onclick='narn("error","测试")'>测试</span><span><input id='sw_err' class="switch switch-anim" onchange="var fn = function(){narn('success','设置成功');};localStorage.disAllowErr = !checkSwitch(this,fn,fn)" type="checkbox" /></span>
 <br>
 
-## 图片代理
+## 数据代理
 是否使用Github源数据？（默认使用jsDelivrCDN）<br>
 <span><input id='sw_gh' class="switch switch-anim" onchange="var fn = function(){narn('success','设置成功');};localStorage.useGH = checkSwitch(this,fn,fn)" type="checkbox" /></span>
 

@@ -22,21 +22,26 @@ features:
   - icon: 🧑‍💻
     title: Coding
     details: 编程生涯记录
+    link: /keep_learning/c_c++
   - icon: 🙀
     title: ArchLinux
     details: 我的ArchLinux折腾记录
+    link: /keep_learning/archlinux
   - icon: 😎
     title: Exploration
     details: 我的探险
+    link: /exploration/
   - icon: 🤔
     title: Thinkings
     details: 我的各种思考
+    link: /writings/
   - icon: 😋
     title: Gaming
-    details: 我的游戏记录
+    link: /gaming_life/
   - icon: 📚
     title: Study
     details: 我在主要科目学习上的思考
+    link: /keep_learning/
 ---
 
 <style>
