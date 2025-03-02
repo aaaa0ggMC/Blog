@@ -1,7 +1,100 @@
 # 年假总结
 ## <span class='hl'>[1]摄影</span>
 <p class='ins'>今年我拍了很多张照片，也不知道是不是有点肌肉记忆了，拍出的物体的主体竟然都集中在了黄金分割线附近，于我而言有种均衡的美。我的摄影风格目前也挺固定的：偏爱剪影、蓝调，爱拍天空的云彩与阳光“碰撞”时的画面。拍的时候我一般开启手机的专业模式，ISO拉得好高（为了拍清更加细致的明暗但也不会调得过高产生过多噪点），同时快门拉低降低照片亮度，EV也拉的较低，再点一下，一张“公式化”的图便出来了。</p>
-<p class='ins'>这些图里我最喜欢的是1月28日拍的远处的山峦 <span class='ps'>（TODO：这里应该插图片的）</span>，由于我所处位置海拔较高，因此图片十分干净，主体是连绵不绝的青山，右下角则是一小块瓦片房屋的“身影”，让我想起了尼采的话：“<span class='hl' >我的灵魂清晰而明亮，宛如清晨的群山。</span>”（图片也确实是早上拍的）其次便是一只还没睁开眼睛的小奶狗与夕阳下如同莫奈的画的稻草堆。<span class='ps'>（TODO：这里也应该插图片的）</span>基本上，我走到哪里，便会拿手机尝试拍照。（但是几天下来产量也不是很高，只有十多张，不过质量我认为还行。</p>
+<p class='ins'>这些图里我最喜欢的是1月28日拍的远处的山峦 <span class='ps'>（见下面的图片列表）</span>，由于我所处位置海拔较高，因此图片十分干净，主体是连绵不绝的青山，右下角则是一小块瓦片房屋的“身影”，让我想起了尼采的话：“<span class='hl' >我的灵魂清晰而明亮，宛如清晨的群山。</span>”（图片也确实是早上拍的）其次便是一只还没睁开眼睛的小奶狗与夕阳下如同莫奈的画的稻草堆。<span class='ps'>（TODO：这里也应该插图片的）</span>基本上，我走到哪里，便会拿手机尝试拍照。（但是几天下来产量也不是很高，只有十多张，不过质量我认为还行。</p>
+
+:::details 这里是图片们
+<img content='/imgs/lunar_new_year/data1.jpg' title="黄昏林影" />
+<p align='center' class='hl' >ISO:3200 EV:0 SS:1/10 F:f/1.8</p>
+<p align='center' class='ps'>黄昏下的树林，坐在车上拍的所以树有一种拉长的动感。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data2.jpg' title="长沙夜晚" />
+<p align='center' class='hl' >ISO:<span title='估计出问题了'>19043</span> EV:2.9 SS:1/160 F:f/1.8</p>
+<p align='center' class='ps'>透过一个围栏看向远处的光。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data3.jpg' title="云雾" />
+<p align='center' class='hl' >ISO:3200 EV:0.2 SS:1/25 F:f/1.8</p>
+<p align='center' class='ps'>雨雾缭绕的世界。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data4.jpg' title="清晨群山" />
+<p align='center' class='hl' >ISO:125 EV:0.2 SS:0.00156s F:f/1.8</p>
+<p align='center' class='ps'>有点而像liquidbounce的主界面。我当时到别人家串门时拍的，他们家地势比较高，视野开阔。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data5.jpg' title="舞动的草木I" />
+<p align='center' class='hl' >ISO:100 EV:0 SS:0.01s F:f/1.8</p>
+<p align='center' class='ps'>我想起了李娟的向日葵海洋，这个是芒草海洋。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data7.jpg' title="舞动的草木II" />
+<p align='center' class='hl' >ISO:240 EV:0 SS:0.00157s F:f/1.8</p>
+<p align='center' class='ps'>原本想用三分法，发现线性构图二分也还行。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data6.jpg' title=“舞动的草木III” />
+<p align='center' class='hl' >ISO:100 EV:0.9 SS:0.00817s F:f/1.8</p>
+<p align='center' class='ps'>黄与灰的碰撞，产生无尽的生机。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data8.jpg' title="春天稻田" />
+<p align='center' class='hl' >ISO:100 EV:0 SS:0.0045s F:f/1.8</p>
+<p align='center' class='ps'>线性与曲线构图结合，规矩而有生机</p>
+<br>
+
+
+<img content='/imgs/lunar_new_year/data9.jpg' title="扑腾的鹅" />
+<p align='center' class='hl' >ISO:100 EV:0.3 SS:0.00918s F:f/1.8</p>
+<p align='center' class='ps'>洁白而又茫然的动物。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data10.jpg' title="稻草堆" />
+<p align='center' class='hl' >ISO:100 EV:0 SS:0.00621s F:f/1.8</p>
+<p align='center' class='ps'>有点像莫奈的画。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data11.jpg' title="稻草堆:aft" />
+<p align='center' class='hl' >ISO:100 EV:0 SS:0.00621s F:f/1.8</p>
+<p align='center' class='ps'>这样很暖。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data12.jpg' title="云与山" />
+<p align='center' class='hl' >ISO:100 EV:-3 SS:0.000099s F:f/1.8</p>
+<p align='center' class='ps'>极致地拉低亮度只为拍到那闪亮的云层</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data13.jpg' title="垂落竹林" />
+<p align='center' class='hl' >ISO:3200 EV:0.3 SS:1/1250 F:f/1.8</p>
+<p align='center' class='ps'>这张调过色</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data14.jpg' title="双鱼" />
+<p align='center' class='hl' >ISO:461 EV:0 SS:0.01s F:f/1.8</p>
+<p align='center' class='ps'>亲嘴ing......</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data15.jpg' title="炯炯有神" />
+<p align='center' class='hl' >ISO:3200 EV:0.2 SS:0.086s F:f/1.8</p>
+<p align='center' class='ps'>很可爱的狗。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data16.jpg' title="山涧" />
+<p align='center' class='hl' >ISO:640 EV:0 SS:1/1250s F:f/1.8</p>
+<p align='center' class='ps'>流动的静。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data17.jpg' title="小狗" />
+<p align='center' class='hl' >ISO:1327 EV:0 SS:1/25 F:f/1.8</p>
+<p align='center' class='ps'>是真的很小的狗，眼睛还睁不开，在我的腿上瑟瑟发抖（太冷了）。</p>
+<br>
+
+<img content='/imgs/lunar_new_year/data18.jpg' title="蒲公英" />
+<p align='center' class='hl' >ISO:1600 EV:0 SS:1/800 F:f/1.8</p>
+<p align='center' class='ps'>手动调整了focus，有点儿“一枝红杏出墙来”的生气。</p>
+<br>
+:::
 
 ## <span class='hl'>[2]博客</span>
 <p class='ins'>小学生又来“推销”他的SNT（Simple Note）了，我看了看他的<a target='_blank' href='https://euuen.github.io'>github.io</a>，发现丑得一逼，比我2020年搓的网站还垃圾。但忽地，我想起来了：我已经4年没有真正更新我的网站了。因此我打算搭建一个自己的博客，但要是静态的<span class='ps'>动态的网址我一没有足够的钱，二怕被hack与DDOS</span>。略加搜索，我发现Vitepress+GithubActions可以完美地满足我的需求。因此，就决定是你了,Vitepress!</p>
