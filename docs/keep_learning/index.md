@@ -8,3 +8,4 @@
 - [C/C++学习(语法，STL...)](./c_c++)
 - [其他语言的学习(如Java,Python,HTML,Rust...)](./other_langs)
 - [Linux的学习（以ArchLinux为核心）](./archlinux)
+- [主科上的思考](./study.md)

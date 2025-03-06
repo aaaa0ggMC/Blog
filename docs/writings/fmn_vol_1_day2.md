@@ -1,9 +1,9 @@
 # Mein Kampf in 3C3U <span class='ps'>"我的奋斗"在3C3U</span>
 <span class='ps'>标题PS:如有冒犯，请谅解，这只是开个玩笑。</span>
 <h2><center class='hl'>勿忘我Vol.I Day8</center></h2>
-<span class='ps'>由于隐私问题，部分内容经过GPG加密，然后以base64(短数据)或者文件链接（长的数据）的形式呈现在文章中。如果你拥有私钥或者密码，可以下载gpg文件或者base64 -d解码数据后gpg解密获得隐藏内容。</span>
 
 ## [壹]开始玩3C3U
+<span class='ins'>在8月7日晚，小学生告诉我他要玩无政府服务器，叫什么3C3U,还要开Metro在里面称霸(bushi)。我原本要继续玩Hypixel的，但我想了想——不如再试一试无政府服务器吧，反正我也要玩纯生存。</span>
 
 ## [贰]我不做Legit玩家了！辛苦的跋涉。
 

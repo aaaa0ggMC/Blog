@@ -41,7 +41,7 @@ features:
   - icon: 📚
     title: Study
     details: 我在主要科目学习上的思考
-    link: /keep_learning/
+    link: /keep_learning/study
 ---
 
 <style>
