@@ -31,4 +31,9 @@
 是否使用Github源数据？（默认使用jsDelivrCDN）<br>
 <span><input id='sw_gh' class="switch switch-anim" onchange="var fn = function(){narn('success','设置成功');};localStorage.useGH = checkSwitch(this,fn,fn)" type="checkbox" /></span>
 
+### 自定义代理地址
+一般用于调试，优先级大于JsDeliver小于Github
+<input id='usdf' class='ip' type='text' /><button style='text-indent:1em;' onclick='localStorage.userDef = document.getElementById("usdf").value;narn("success","地址更新成功",1000,"代理地址设置");'>确定</button>
+
+
 <div id='page_id'>settings</div>

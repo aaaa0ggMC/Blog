@@ -181,12 +181,16 @@ export async function initGPG() {
         const secKey = localStorage.getItem('sec_key');
         const target = document.getElementById('gpg_key') as HTMLInputElement | null;
         const targetSec = document.getElementById('sec_key') as HTMLInputElement | null;
+        const targetUDF = document.getElementById('usdf') as HTMLInputElement | null;
 
         if (target && gpgKey) {
             target.value = gpgKey;
         }
 		if (targetSec && secKey) {
             targetSec.value = secKey;
+        }
+		if (targetUDF) {
+            targetUDF.value = localStorage.userDef==null?"":localStorage.userDef;
         }
 		if(target){
 			target.onkeyup = function(e){
@@ -196,6 +200,11 @@ export async function initGPG() {
 		if(targetSec){
 			targetSec.onkeyup = function(e){
 				if(e.keyCode == 13){confirmGPG();narn("success","密钥更新成功",1000,"密钥设置");initGPG();}
+			}
+		}
+		if(targetUDF){
+			targetUDF.onkeyup = function(e){
+				if(e.keyCode == 13){localStorage.userDef = targetUDF.value;narn("success","更新成功",1000,"代理设置");}
 			}
 		}
 

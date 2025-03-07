@@ -102,6 +102,13 @@ export function initPage(page_id){
 			tpath = base + tpath.substr(1);
 		}else if(tpath[0] == '/'){
 			if(localStorage.useGH == 'true')tpath = "https://raw.githubusercontent.com/aaaa0ggMC/Blog_PicBackend/main" + tpath;
+			else  if(localStorage.userDef != null && localStorage.userDef != ''){
+				let path = "";
+				if(localStorage.userDef[localStorage.userDef.length - 1] == '/'){
+					path = localStorage.userDef.substr(0,localStorage.userDef.length-1);
+				}else path = localStorage.userDef;
+				tpath = path + tpath;
+			}
 			else tpath = "https://cdn.jsdelivr.net/gh/aaaa0ggMC/Blog_PicBackend@main" + tpath;
 		}
 		obj.src = tpath;
@@ -109,5 +116,12 @@ export function initPage(page_id){
 	///load fonts
 	if(localStorage.useGH == 'true'){
 		loadFont('canger','https://raw.githubusercontent.com/aaaa0ggMC/Blog_PicBackend/main/fonts/canger.ttf');
-	}else loadFont('canger','https://cdn.jsdelivr.net/gh/aaaa0ggMC/Blog_PicBackend@main/fonts/canger.ttf');
+	}else if(localStorage.userDef != null && localStorage.userDef != ''){
+		let path = "";
+		if(localStorage.userDef[localStorage.userDef.length - 1] == '/'){
+			path = localStorage.userDef.substr(0,localStorage.userDef.length-1);
+		}else path = localStorage.userDef;
+		loadFont('canger',path + "/fonts/canger.ttf");
+	}
+	else loadFont('canger','https://cdn.jsdelivr.net/gh/aaaa0ggMC/Blog_PicBackend@main/fonts/canger.ttf');
 }

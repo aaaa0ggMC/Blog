@@ -1,12 +1,6 @@
-import { withMermaid } from "vitepress-plugin-mermaid";
 import { base } from './theme/layout/Data.ts';
 
-export default withMermaid({
-  mermaid: {
-  },
-  mermaidPlugin: {
-    class: "mermaid my-class"
-  },
+export default{
   base,
   title: "aaaa0ggmc's blog",
   description:"记住生活 Forget me Not(勿忘我)",
@@ -108,4 +102,4 @@ export default withMermaid({
       ]
     }
   }
-});
+};
