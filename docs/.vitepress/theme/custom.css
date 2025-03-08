@@ -5,6 +5,10 @@
     font-stretch: 100% 100%;
 }*/
 
+.dag {
+	mix-blend-mode: multiply;
+}
+
 :root {
 	--vp-font-family-base: canger, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif !important;
 	--vp-font-family-mono: canger, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif !important;

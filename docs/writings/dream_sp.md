@@ -16,7 +16,7 @@
 
 :::details 查看流程图
 
-<img content='/imgs/dream_sp/route.png' />
+<img class='dag' content='/imgs/dream_sp/route.png' />
 
 :::
 

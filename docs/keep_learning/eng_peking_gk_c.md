@@ -18,6 +18,7 @@
 
 ## Arti. 文章
 
+如果你还没做过我建议你做一下，挺好的
 
 ### C
 
@@ -54,6 +55,14 @@ C. The issue of collapse is being prioritized.<br/>
 D. The global collapse is well underway.<br/>
 </p>
 
+
+:::warning 答案（你真的做了吗）
+:::details
+28.D
+29.A
+30.B
+:::
+
 ## Voca. 词汇
 Mainly adapted from *Merriam-Webster Collegiate Dictionary*
 
@@ -66,6 +75,28 @@ Mainly adapted from *Merriam-Webster Collegiate Dictionary*
 | [biophysical limits](https://esg.sustainability-directory.com/term/biophysical-limits/) | At its core, the concept of Biophysical Limits refers to the finite nature of Earth’s resources and the planet’s capacity to absorb the impacts of human activities. In simple terms, it’s about recognizing that our planet has boundaries – ceilings and floors – that dictate what is ecologically possible and sustainable. | 环境承载力 |
 | [incurable](https://www.merriam-webster.com/dictionary/incurable) | broadly : not likely to be changed or corrected | 难以改变，不可救药的 |
 | [preparedness](https://www.merriam-webster.com/dictionary/preparedness) | the quality or state of being prepared | 有准备 |
+
+## Pass. 文章讲了什么
+内容均是我的自译，不一定完全正确<br>
+
+### Paragraph 1
+<p class='ins ps'>Hundreds of scientists, writers and academics sounded a warning to humanity in an open letter published last December: Policymakers and the rest of us must engage openly with the risk of global collapse. Researchers in many areas have projected the widespread collapse as “a <span class='hl'>credible</span> scenario (情景) this century”.
+</p>
+<p class='ins'>学者、作家、科学家于12月公开信发出警告：政策制定者于与剩下的人必须公开地合作以对抗全球崩溃这一风险。多地地研究人员认为（推测）广泛的崩溃为“本世纪有证据的可信情景”。</p>
+<p class='ins hl'>这里类似导言。注意这里的credible指的是推测的未来——会发生崩溃，而非他们的公开信credible。</p>
+
+### Paragraph 2
+<p class='ins ps'>A survey of scientists found that extreme weather events, food insecurity, and freshwater shortages might create global collapse. <span class='hl'>Of course, if you are a non-human species, collapse is well underway. </span>
+</p>
+<p class='ins'>极端条件导致全球崩溃。如果你并非人类，崩溃早已开始。</p>
+<p class='ins hl'>这段分析了崩溃的原因。你可能以为"Of course, if you are a non-human species, collapse is well underway"是个笑话从而认为作者“风格飘逸”，但事实并非如此。<span style='color:red;'>这里是我认为北京高考题出的不是很好的地方——引发了完全偏离文章的歧义，这个后面再讲。</span></p>
+
+### Paragraph 3
+<p class='ins ps'>The call for public engagement with the unthinkable is especially germane in this moment of still-uncontrolled pandemic and economic crises in the world’s most technologically advanced nations. Not very long ago, <span class='hl' >it was also unthinkable that </span> a virus would shut down nations and that safety nets would be proven so disastrously lacking in flexibility.</p>
+<p class='ins'>呼吁公众参与的倡议在当今疫情尚未停息、经济仍然危机的时代尤为相关，尤其在那些科技最发达的国家。不久以前，<span style='color:red;' >谁也没想到</span>一个病毒会让国家停摆以及证明安全网络如此缺乏适应能力。</p>
+<p class='ins hl'></p>
+
+
 
 ## 原文
 [查看链接](https://www.latimes.com/opinion/story/2021-01-31/societal-collapse-collapseology-climate-change)
