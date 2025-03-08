@@ -16,6 +16,9 @@
 - 总结
 - 参考（网页版附加）
 
+## RContents 目录（自动生成）
+[[toc]]
+
 ## Arti. 文章
 
 如果你还没做过我建议你做一下，挺好的
@@ -92,9 +95,14 @@ Mainly adapted from *Merriam-Webster Collegiate Dictionary*
 <p class='ins hl'>这段分析了崩溃的原因。你可能以为"Of course, if you are a non-human species, collapse is well underway"是个笑话从而认为作者“风格飘逸”，但事实并非如此。<span style='color:red;'>这里是我认为北京高考题出的不是很好的地方——引发了完全偏离文章的歧义，这个后面再讲。</span></p>
 
 ### Paragraph 3
-<p class='ins ps'>The call for public engagement with the unthinkable is especially germane in this moment of still-uncontrolled pandemic and economic crises in the world’s most technologically advanced nations. Not very long ago, <span class='hl' >it was also unthinkable that </span> a virus would shut down nations and that safety nets would be proven so disastrously lacking in flexibility.</p>
+<p class='ins ps'>The call for public engagement with the <span class='hl'>unthinkable</span> is especially germane in this moment of still-uncontrolled pandemic and economic crises in the world’s most technologically advanced nations. Not very long ago, <span class='hl' >it was also unthinkable that </span> a virus would shut down nations and that safety nets would be proven so disastrously lacking in flexibility.</p>
 <p class='ins'>呼吁公众参与的倡议在当今疫情尚未停息、经济仍然危机的时代尤为相关，尤其在那些科技最发达的国家。不久以前，<span style='color:red;' >谁也没想到</span>一个病毒会让国家停摆以及证明安全网络如此缺乏适应能力。</p>
-<p class='ins hl'></p>
+<p class='ins hl'>注意这里的unthinkable，这并非surprised，更像是对现状的陈述，就像一个人说“谁有想得到那年竟然XXX呢？”也许那年他惊讶，但现在就像是在回忆在进行叙述。而这“unthinkable”恰恰说明了大众对于"collapse"的无知，因此我们能从这里间接地看出public awareness(大众意识)的缺乏。</p>
+
+### Paragraph 4
+<p class='ins ps'>The international scholars’ warning letter doesn’t say exactly what collapse will look like or when it might happen. Collapseology, the study of collapse, is more concerned with identifying trends and with them the dangers of everyday civilization. Among the signatories (签署者) of the warning was Bob Johnson, the originator of the “ecological footprint” concept, which measures the total amount of environmental input needed to maintain a given lifestyle. With the current footprint of humanity, “it seems that global collapse is certain to happen in some form, possibly within a decade, certainly within this century,” Johnson said in an email.
+</p>
+<p class='ins'>介绍崩溃学，引出发明生态足迹的科学家WilliamRees(高考选文改成了BobJhonson但是现实里甚至没有叫这个名字且出名的人)。用名言论证现在人类的生态足迹会让崩溃发生于本世纪，也许十年内发生。</p>
 
 
 
