@@ -68,7 +68,6 @@ watch(isDark, (dark) => {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, orange 30%, red);
   --vp-home-hero-image-background-image: linear-gradient(-45deg, orange 70%, yellow 30%);
-  --vp-home-hero-image-filter: blur(44px);
   
   --vp-c-bg-alt: #7e9ecd;
   --vp-c-bg-elv: #7e9ecd;
@@ -84,7 +83,22 @@ watch(isDark, (dark) => {
   --vp-input-switch-bg-color: #7e9ecd;
   --vp-nav-bg-color: #7e9ecd;
 
-  color:black !important;
+  color: black !important;
+}
+
+.home-theme .VPFeature{
+  background-image: linear-gradient(120deg, #aaaaff 80%, #bbbbff 20%);
+}
+
+.image-bg{
+  filter: blur(44px);
+  animation: imgAni 10s infinite;
+}
+
+@keyframes imgAni {
+  0% { filter: blur(44px); }
+  50% { filter: blur(80px); }
+  100% { filter: blur(44px); }
 }
 
 /* 嵌套写法确保样式作用域 */
