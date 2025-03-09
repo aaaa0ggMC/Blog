@@ -43,15 +43,15 @@
 <p class='ins'>The hundreds of scholars who signed the letter are intent (执着) on quieting hope that ignores preparedness. “Let’s look directly into the issue of collapse,” they say, “and deal with the terrible possibilities of what we see there to make the best of a troubling future.”
 </p>
 <p>
-28. What does the underlined word “germane” in Paragraph 3 probably mean?<br/><pre>
-A. Scientific.      B. Credible.      C. Original.       D. Relevant.</pre>
+1.  What does the underlined word “germane” in Paragraph 3 probably mean?<br/>
+A. Scientific.      B. Credible.      C. Original.       D. Relevant.
 </p>
 
 <p>
-29. As for the public awareness of global collapse, the author is ______.<br/><pre>
-A. worried         B. puzzled         C. surprised     D. scared</pre>
+1.  As for the public awareness of global collapse, the author is ______.<br/>
+A. worried         B. puzzled         C. surprised     D. scared
 </p><p>
-30. What can we learn from this passage?<br/>
+1.  What can we learn from this passage?<br/>
 A. The signatories may change the biophysical limits.<br/>
 B. The author agrees with the message of the poem.<br/>
 C. The issue of collapse is being prioritized.<br/>
@@ -121,7 +121,7 @@ Mainly adapted from *Merriam-Webster Collegiate Dictionary*
 ### 28
 <p>
 What does the underlined word “germane” in Paragraph 3 probably mean?<br/>
-<pre>A. Scientific.      B. Credible.      C. Original.       D. Relevant.</pre>
+A. Scientific.      B. Credible.      C. Original.       D. Relevant.
 </p>
 <br />
 从第三段来看,前面是倡议后面是一个特殊时期，也就是：
@@ -135,7 +135,7 @@ What does the underlined word “germane” in Paragraph 3 probably mean?<br/>
 ### 29
 <p>
 As for the public awareness of global collapse, the author is ______.<br/>
-<pre>A. worried         B. puzzled         C. surprised     D. scared</pre>
+A. worried         B. puzzled         C. surprised     D. scared
 </p>
 <br />
 作者对于公众意识的态度，首先我们要知道公众对于崩溃的意识是什么。你可能找不到直接字眼，但文章处处在暗示：
