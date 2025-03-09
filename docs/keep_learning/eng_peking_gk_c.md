@@ -43,13 +43,13 @@
 <p class='ins'>The hundreds of scholars who signed the letter are intent (执着) on quieting hope that ignores preparedness. “Let’s look directly into the issue of collapse,” they say, “and deal with the terrible possibilities of what we see there to make the best of a troubling future.”
 </p>
 <p>
-28. What does the underlined word “germane” in Paragraph 3 probably mean?<br/>-
-A. Scientific.      B. Credible.      C. Original.       D. Relevant.
+28. What does the underlined word “germane” in Paragraph 3 probably mean?<br/><pre>
+A. Scientific.      B. Credible.      C. Original.       D. Relevant.</pre>
 </p>
 
 <p>
-29. As for the public awareness of global collapse, the author is ______.<br/>
-A. worried         B. puzzled         C. surprised     D. scared
+29. As for the public awareness of global collapse, the author is ______.<br/><pre>
+A. worried         B. puzzled         C. surprised     D. scared</pre>
 </p><p>
 30. What can we learn from this passage?<br/>
 A. The signatories may change the biophysical limits.<br/>
@@ -104,6 +104,80 @@ Mainly adapted from *Merriam-Webster Collegiate Dictionary*
 </p>
 <p class='ins'>介绍崩溃学，引出发明生态足迹的科学家WilliamRees(高考选文改成了BobJhonson但是现实里甚至没有叫这个名字且出名的人)。用名言论证现在人类的生态足迹会让崩溃发生于本世纪，也许十年内发生。</p>
 
+### ⭐ Paragraph 5
+<p class='ins ps'>Only if we discuss the consequences of our biophysical limits, the December warning letter says, can we have the hope to reduce their “speed, severity and harm”. <span class='hl'>And yet messengers of the coming disturbance are likely to be ignored. </span>We all want to hope things will turn out fine. As a poet wrote,
+</p>
+<p align='center' class='ps'>Man is a victim of dope (麻醉品)</p>
+<p align='center' class='ps'>In the incurable form of hope.</p>
+<p class='ins'>“只有当我们讨论了（我们达到）环境承载力（极限）”，十二月警示说，“我们才能有希望降低它们（崩溃）的”速度，程度与损伤“。<span style='color:red;'>然而，那些传播即将到来的扰乱（原文[并非选文]为turmoils[骚乱])的信使（科学家，学者......）却很容易被忽视。我们都<span class='hl'>希望</span>世界会变得更好。（但）正如一个诗人所写</span></p>
+<p align='center' class='hl'>人类一直都是不可救药（盲目）希望这股麻醉剂的受害者。</p>
+
+### ⭐ Paragraph 6
+<p class='ins ps'>The hundreds of scholars who signed the letter are intent (执着) on quieting hope that ignores preparedness. “Let’s look directly into the issue of collapse,” they say, “and deal with the terrible possibilities of what we see there to make the best of a troubling future.”
+</p>
+<p class='ins'>成百上千的签署这封信的学者执着于消停这没有任何行动（准备）的希望。”让我们<span class='hl'>正视</span>崩溃吧！“他们说，”并且处理我们回看到的可怕的各种可能来让这个让人担忧的未来更好。“</p>
+
+## Solu. 解题
+### 28
+<p>
+What does the underlined word “germane” in Paragraph 3 probably mean?<br/>
+<pre>A. Scientific.      B. Credible.      C. Original.       D. Relevant.</pre>
+</p>
+<br />
+从第三段来看,前面是倡议后面是一个特殊时期，也就是：
+<p class='ins'>倡议______特殊时期____</p>
+<p class='ins'>倡议十分学术在特殊时期？(scientific)这完全是风马牛不相干。</p>
+<p class='ins'>倡议十分可信在特殊时期？(credible)。乍一看很对，但是credible是”有证据证明被相信“，这个倡议是一个行动的呼吁而非证明什么东西又何谈可信呢？</p>
+<p class='ins'>倡议十分原创在特殊时期？(original)这也是一看就pass的选项。</p>
+<p class='ins'>倡议十分相关在特殊时期？（很有关系）(relevant)这样便说的通了。事实上，当你看到is especially __ in this moment时，你便可能会想到fit(合适)，suit等词语。而relevant与这些词语意思相近(并非近义词)。</p>
+<p class='ins ps'>在韦氏字典中，relevant与germane为近义词，而germane比relevant多了个”fitness“，强调更适合。</p>
+
+### 29
+<p>
+As for the public awareness of global collapse, the author is ______.<br/>
+<pre>A. worried         B. puzzled         C. surprised     D. scared</pre>
+</p>
+<br />
+作者对于公众意识的态度，首先我们要知道公众对于崩溃的意识是什么。你可能找不到直接字眼，但文章处处在暗示：
+
+- 开头的呼吁信，呼吁人们重视崩溃并处理崩溃
+- Para3的unthinkable,人们没想到，本质上是人们没去想
+- And yet messengers of the coming disturbance are likely to be ignored. 即使是那些带来崩溃消息的信使也被无视了，进一步体现了公共意识的缺乏
+- Man is a victim of dope / In the incurable form of hope. 你理解这句话后便会发现它的意思为 "人类一直为希望所困，祈求着希望的到来，如同瘾君子渴求麻药（毒品，高考为了健康隐晦了点）一般"。我在[quotation](https://quotation.io/quote/man-victim-dope-incurable-form-hope)上找到的释义进一步证实了我的想法:<br>&nbsp;&nbsp; This quote suggests that human beings are often trapped or deceived by a particular type of addiction or craving, which is hope. Just like a drug addict who continually seeks their fix despite its negative consequences, humans inevitably fall prey to unrealistic expectations and aspirations. Hope, in its limitless nature, can manipulate and control individuals, leading them to unrealistically cling to possibilities and outcomes that may never materialize. It emphasizes how hope can become a relentless and incurable disease that consumes and victimizes the human mind.<br>&nbsp;&nbsp; 这里的诗句结合"We all want to hope things will turn out fine."标明了人们一直沉湎于虚假的希望中，希望世界会变得更好而忽视了collapse本身。这便是为什么学者要"quieting hope that ignores preparedness"的原因，为什么要说"let's look directly into the issue of collapse"的原因。
+
+<p class='ins hl'>从这里你也看出来了，作者对于大众的无知并不惊讶，反而援引大量的论据进行批判。可以说他对大众的无知十分清楚，并且想要告诉人们这种无知的后果。因此选择worried.surprised显然不对，如果是惊讶，什么”哎呀，我没想到大家这么无知“的感觉，那么作者就不会用这么多的论据来证明大众的无知了。那么作者苦口婆心地分析collapse又有什么情感呢？puzzle与scare就更不对了，这里不多赘述。</p>
+<p class='ins hl'>如果你仍对surprised与worry有疑义，释义如下：</p>
+<p class='ins hl'>surprised: feeling or showing surprise because of something unexpected</p>
+<p class='ins hl'>worried: feeling or showing concern or anxiety about what is happening or might happen</p>
+<p class='ins hl'>如果是surprise,那么unexpected在哪里体现了呢？前文只有untinkable像这么回事，但这是大众对于“崭露头角”的collapse的态度，而不是作者的态度。</p>
+
+### 30
+<p>
+What can we learn from this passage?<br/>
+A. The signatories may change the biophysical limits.<br/>
+B. The author agrees with the message of the poem.<br/>
+C. The issue of collapse is being prioritized.<br/>
+D. The global collapse is well underway.<br/>
+</p>
+<br />
+A项：是discuss而不是change，而且这个讨论是为了减少崩溃的可能性，而不是改变环境承载力的极限。<br/>
+C项：唯一的论据是"directly",但这并不代表prioritize，而是为了让大家更好地面对崩溃，这说明以前是indirect并且主体是大众。<br/>
+D项：张冠李戴了，文章说的是如果你是非人类，崩溃早已开始，而不是全球崩溃早已开始。<br/>
+B项：都引用诗句了，要么赞同要么反对，这里作者显然是赞同的。<br/>
+
+## Intre. 原文与选文的区别与小问题
+<p class='ins'>我一直以为"Of course, if you are a nonhuman species, collapse is well underway."是一个无趣的冷笑话。但我又觉得这句话十分突兀，于是我搜了某个不存在的网站找到了原文。原文中这句话单独一段并且后面紧跟着论据：Ninety-nine percent of the tall grass prairie in North America is gone, by one estimate; 96% ...(见后面)......着根本就不是笑话而是事实——崩溃早已在非人群体（动植物）中发生，环境正在不断恶化。这是我认为高考题的一个小问题——太容易引起歧义了，我们班几乎100%的人都认为这是一个笑话。</p>
+<p class='ins'>其次在对比文章时我发现原来高考还会对人名进行模糊。原文中提到的生态足迹的创始人WilliamRees,一个教授，但是专家们改成了BobJohnson,一个不出名的人(网上找不到)。</p>
+<p class='ins'>此外还有一些贴合课标的改动，这里列出来一部分:</p>
+
+- lacking in flexibility (原文： resilience)
+- the coming disturbance (原文： turmoils)
+- reduce the "(原文还有: likelyhood),speed,severity and harm"
+
+## Summ. 总结
+<p class='ins'>当我做完后，我的心久久不能平静。这篇阅读是真的难，也是真的有趣。只能说京爷不愧是京爷，这信息藏得太深了！要完全理解题目必须完全理解文章。中文网上的各种信息我也看了，要么假大空，要么便是自己也读不明白拿着一两点便说文章怎么怎么的，以及一些人自己也做错了29题的网络上的老师，因此我觉得我的探索意义还挺大。</p>
+
+<p class='leave'>Cheers!<br /> 2025/3/6</p>
 
 
 ## 原文
@@ -147,4 +221,18 @@ The hundreds of scholars who signed the letter are intent on quieting hope that 
 </p><p class='ps'>
 Christopher Ketcham is the author, most recently, of “This Land: How Cowboys, Capitalism, and Corruption Are Ruining the American West.” Jeff Gibbs is the writer and director of the documentary “Planet of the Humans.”
 </p>
+:::
+
+## 网页版制作后记
+<p class='ins'>MD,累死我了，终于打完文字了。</p>
+<p class='leave'>Cheers!<br /> 2025/3/9 </p>
+
+## 原稿
+:::details 查看图片
+<img content='/imgs/eng_pek_c/1.jpg' />
+<img content='/imgs/eng_pek_c/2.jpg' />
+<img content='/imgs/eng_pek_c/3.jpg' />
+<img content='/imgs/eng_pek_c/4.jpg' />
+<img content='/imgs/eng_pek_c/5.jpg' />
+<img content='/imgs/eng_pek_c/6.jpg' />
 :::
