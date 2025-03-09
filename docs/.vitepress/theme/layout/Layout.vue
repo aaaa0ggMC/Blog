@@ -65,6 +65,8 @@ watch(isDark, (dark) => {
 <style>
 /* 将原 :root 选择器改为 .home-theme */
 .home-theme {
+  user-select: none;
+
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, orange 30%, red);
   --vp-home-hero-image-background-image: linear-gradient(-45deg, orange 70%, yellow 30%);
