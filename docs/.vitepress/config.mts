@@ -64,6 +64,7 @@ export default{
             {text:"C/C++学习",link:"/keep_learning/c_c++"},
             {text:"其他语言的学习",link:"/keep_learning/other_langs"},
             {text:"Linux的学习",link:"/keep_learning/archlinux"},
+            {text:"主科思考",link:"/keep_learning/study"},
           ],
           link:"/keep_learning/"
       },

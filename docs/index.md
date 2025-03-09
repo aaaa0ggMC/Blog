@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: <span class='blog_title' >aaaa0ggmc的博客</span>
-  text: Dip into the world deeper...
+  text: <span class='dynamic_text' content='Dip into the world deeper...' >Dip into the world deeper...</span>
   tagline: C++ OpenGL ArchLinux 摄影 旅行
   image:
     src: /logo.png
@@ -43,28 +43,5 @@ features:
     details: 我在主要科目学习上的思考
     link: /keep_learning/study
 ---
-
-<style>
-
-:root {
-  --vp-home-hero-name-color: transparent !important;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, orange 30%, red) !important;
-
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, orange 70%, yellow 30%) !important;
-  --vp-home-hero-image-filter: blur(44px) !important;
-}
-
-@media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(56px) !important;
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(68px) !important;
-  }
-}
-</style>
 
 <div id='page_id'>home</div>

@@ -46,6 +46,72 @@ function loadFont(_fontName, _fontUrl) {
 	})
 }
 
+function mainPage(){
+	const dyT = document.getElementsByClassName('dynamic_text');
+	let dyTDelay = 0;
+	let reverse = false;
+	let ezDelay = 0;
+	let ppDelay = 0;
+	let space = false;
+	if(dyT != null){
+		const intervalId = setInterval(()=>{
+			if (dyT.length === 0) {
+				//console.log("cleared");
+				clearInterval(intervalId);
+			}
+			for(let idx = 0;idx < dyT.length;++idx){
+				const obj = dyT[idx] as HTMLElement;
+				const ct = obj.attributes.content;
+				const text = ct == null?"":ct.value;
+
+				if(ct == null)continue;
+
+				if(obj.ldata == null){
+					obj.ldata = "";
+				}
+				if(obj.fill == null){
+					obj.fill = "";
+				}
+
+				if(reverse == true && obj.ldata.length < text.length){
+					ezDelay++;
+					if(ezDelay > 8){
+						ezDelay = 0;
+						obj.ldata = text.substr(0, obj.ldata.length + 1);
+						obj.fill = "";
+						for(let i = 0;i < (text.length - obj.ldata.length)*1.3 + 2;++i){ 
+							obj.fill += "&nbsp;";
+						}
+					}
+				}else if(reverse == false && obj.ldata.length > 0){
+					obj.ldata = text.substr(0,obj.ldata.length - 1);
+					obj.fill = "";
+					for(let i = 0;i < (text.length - obj.ldata.length)*1.3 + 2; ++i){ 
+						obj.fill += "&nbsp;";
+					}
+				}else{
+					dyTDelay++;
+					if(dyTDelay > 600){
+						dyTDelay = 0;
+						reverse = !reverse;
+					}
+				}
+
+				++ppDelay;
+				obj.innerHTML = obj.ldata;
+				if(ppDelay > 100){
+					ppDelay = 0;
+					space = !space;
+				}
+				if(space)obj.innerHTML += "&nbsp;";
+				else obj.innerHTML += "|";
+
+				obj.innerHTML += obj.fill;
+			}
+		}, 5);
+	}
+}
+
 
 export function initPage(page_id){
 	//console.log(page_id);
@@ -56,6 +122,7 @@ export function initPage(page_id){
 			window.narn('log','第一次进入网站？点我进行基础设置！','keep','Welcome!',function(){window.open('settings','_self');});
 			localStorage.inited = true;
 		}
+		mainPage();
 		break;
 	case 'settings':
 		console.log("Init settings page.");
