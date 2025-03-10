@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: <span class='blog_title' >aaaa0ggmc的博客</span>
-  text: <span class='dynamic_text' content='Dip into the world deeper...' >Dip into the world deeper...</span>
+  text: <span class='dynamic_text fixedSize' content='Dip into the world deeper...'>Dip into the world deeper...</span>
   tagline: C++ OpenGL ArchLinux 摄影 旅行
   image:
     src: /logo.png

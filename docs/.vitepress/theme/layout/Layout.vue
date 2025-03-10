@@ -89,7 +89,7 @@ watch(isDark, (dark) => {
 }
 
 .home-theme .VPFeature{
-  background-image: linear-gradient(120deg, #aaaaff 80%, #bbbbff 20%);
+  background-image: linear-gradient(120deg, #ccccff 10% , #aaaaff 70%, #bbbbff 20%);
 }
 
 .image-bg{

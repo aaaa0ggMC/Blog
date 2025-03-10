@@ -69,26 +69,15 @@ function mainPage(){
 				if(obj.ldata == null){
 					obj.ldata = "";
 				}
-				if(obj.fill == null){
-					obj.fill = "";
-				}
 
 				if(reverse == true && obj.ldata.length < text.length){
 					ezDelay++;
 					if(ezDelay > 8){
 						ezDelay = 0;
 						obj.ldata = text.substr(0, obj.ldata.length + 1);
-						obj.fill = "";
-						for(let i = 0;i < (text.length - obj.ldata.length)*1.3 + 2;++i){ 
-							obj.fill += "&nbsp;";
-						}
 					}
 				}else if(reverse == false && obj.ldata.length > 0){
 					obj.ldata = text.substr(0,obj.ldata.length - 1);
-					obj.fill = "";
-					for(let i = 0;i < (text.length - obj.ldata.length)*1.3 + 2; ++i){ 
-						obj.fill += "&nbsp;";
-					}
 				}else{
 					dyTDelay++;
 					if(dyTDelay > 600){
@@ -105,8 +94,6 @@ function mainPage(){
 				}
 				if(space)obj.innerHTML += "&nbsp;";
 				else obj.innerHTML += "|";
-
-				obj.innerHTML += obj.fill;
 			}
 		}, 5);
 	}

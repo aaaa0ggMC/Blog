@@ -9,6 +9,13 @@
 	mix-blend-mode: multiply;
 }
 
+.fixedSize{
+	width: 600px;
+	height: 160px;
+	display: inline-block;
+	overflow: hidden;
+}
+
 :root {
 	--vp-font-family-base: canger, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif !important;
 	--vp-font-family-mono: canger, 'PingFang SC', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif !important;
