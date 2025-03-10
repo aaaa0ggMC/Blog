@@ -92,6 +92,10 @@ watch(isDark, (dark) => {
   background-image: linear-gradient(120deg, #ccccff 10% , #aaaaff 70%, #bbbbff 20%);
 }
 
+.home-theme .VPNavScreen{
+	background-color: #7e9ecd !important;
+}
+
 .image-bg{
   filter: blur(44px);
   animation: imgAni 10s infinite;
