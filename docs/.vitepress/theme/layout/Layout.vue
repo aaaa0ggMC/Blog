@@ -33,6 +33,7 @@ import Giscus from "@giscus/vue";
 import DefaultTheme from "vitepress/theme-without-fonts";
 import { watch, computed } from "vue";
 import { inBrowser, useData, useRouter } from "vitepress";
+import { base } from './Data';
 
 const { isDark, page } = useData();
 const router = useRouter();
@@ -40,8 +41,8 @@ const { Layout } = DefaultTheme;
 
 // 计算当前是否为主页
 const isHomePage = computed(() => {
-  console.log(router.route.path === '/Blog/')
-  return router.route.path === '/Blog/'
+  console.log(router.route.path === base)
+  return router.route.path === base
 });
 
 watch(isDark, (dark) => {
