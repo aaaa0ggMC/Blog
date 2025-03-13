@@ -3,7 +3,6 @@ import Layout from './layout/Layout.vue';
 import { useRoute } from 'vitepress';
 import { watch, onMounted } from 'vue';
 import * as GPGModule from './layout/GPG';
-
 // 引入需要的外部资源
 // import './layout/GPG';  // 确保 GPG.ts 会被加载
 import './custom.css';

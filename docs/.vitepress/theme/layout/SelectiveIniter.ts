@@ -53,6 +53,17 @@ function mainPage(){
 	let ezDelay = 0;
 	let ppDelay = 0;
 	let space = false;
+	
+	const fixedSize = document.getElementsByClassName('fixedSize');
+	
+	for(let idx = 0;idx < fixedSize.length;++idx){
+		//console.log(fixedSize[idx].offsetWidth);
+		fixedSize[idx].style.width = fixedSize[idx].offsetWidth + "px";
+		fixedSize[idx].style.height = fixedSize[idx].offsetHeight + "px";
+		fixedSize[idx].style.overflow = 'hidden';
+		fixedSize[idx].style.display = 'inline-block';
+	}
+	
 	if(dyT != null){
 		const intervalId = setInterval(()=>{
 			if (dyT.length === 0) {

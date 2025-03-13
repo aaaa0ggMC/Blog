@@ -35,6 +35,7 @@ import { watch, computed } from "vue";
 import { inBrowser, useData, useRouter } from "vitepress";
 import { base } from './Data';
 
+
 const { isDark, page } = useData();
 const router = useRouter();
 const { Layout } = DefaultTheme;
@@ -44,6 +45,8 @@ const isHomePage = computed(() => {
   console.log(router.route.path === base)
   return router.route.path === base
 });
+
+
 
 watch(isDark, (dark) => {
   if (!inBrowser) return;
