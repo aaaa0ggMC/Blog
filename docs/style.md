@@ -79,6 +79,33 @@ $$
 \end{aligned} \quad \text{(multiline alignment)}
 $$
 
+### Chemical Equations
+$$
+\ce{H2O + C6H12O6 -> CO2 + H2O} \quad \text{(chemical equation)}
+$$
+
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 绘制苯环六边形 -->
+  <polygon
+    points="150,100 125,143.3 75,143.3 50,100 75,56.7 125,56.7"
+    fill="none"
+    stroke="black"
+    stroke-width="3"
+  />
+  
+  <!-- 绘制中心圆圈表示离域电子 -->
+  <circle
+    cx="100"
+    cy="100"
+    r="30"
+    fill="none"
+    stroke="black"
+    stroke-width="2"
+  />
+</svg>
+
+
+
 ## SVG
 
 <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
