@@ -33,8 +33,8 @@ export default {
       () => route.path,
       () => {
         console.log("Route changed");
-		console.log('GPG.ts 加载成功');
-		GPGModule.initGPG();
+		    console.log('GPG.ts 加载成功');
+		    GPGModule.initGPG();
       }
     );
   },
