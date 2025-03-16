@@ -46,6 +46,7 @@ features:
 
 <style>
 .waves {
+    pointer-events: none;
     position: absolute;
     left: 0px;
     bottom: 0px;
@@ -54,6 +55,7 @@ features:
     min-height: 100px;
     max-height: 150px;
 }
+
 .parallax > use {
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
