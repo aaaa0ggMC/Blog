@@ -23,6 +23,7 @@ export default defineConfig({
       provider: 'local'
     },
     nav:[
+      {text:'UnlimitedLifeDoc',link:'https://aaaa0ggmc.github.io/UnlimitedLife-Linux/ULDoc/'},
       {text:'学海无涯',link:'/keep_learning'},
       {text:'游戏人生',link:'/gaming_life'},
       {text:'随笔',link:'/writings'},
