@@ -28,3 +28,5 @@
 [2025/01/19](./people_0.md)|<span class='encrypt'>b694c2cb40b6bb9646d6fec5e0c6519cd44985f9773a47fe4bb431ef6ca5d17d</span>
 <br>
 [2025/02/02](./lunaryear_summary_2025.md)|<span class='hl'>年假总结</span>
+<br>
+[2025/04/03](./truth_of_happiness.md)|<span class='hl'>幸福的真相---成为自己的“超人”：找点“罪”受</span>
