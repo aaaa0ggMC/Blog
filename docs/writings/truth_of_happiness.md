@@ -1,6 +1,6 @@
 # 幸福的真相---成为自己的“超人”：找点“罪”受
 
-<img content='/imgs/happiness/head.jpg'></img>
+<img class='head_img' content='/imgs/happiness/head.jpg'></img>
 
 ## 正文
 <p class='ins'>Unixchad在一期名为“成为自己的超人”的视频中讲述了他强制自己洗冷水澡这件事。当时我还以为是漫威中的superman，结果他讲的其实是尼采的“超人”这一概念其中的一部分思想——于节制、克服、超越中找到幸福。</p>

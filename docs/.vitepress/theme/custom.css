@@ -5,6 +5,10 @@
     font-stretch: 100% 100%;
 }*/
 
+.head_img{
+  text-align: center;
+}
+
 .dag {
 	mix-blend-mode: multiply;
 }
