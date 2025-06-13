@@ -208,8 +208,10 @@ export async function initGPG() {
 			}
 		}
 
-        decryptData('encrypt',gpgKey,"一般解密");
-        decryptData('encpp',secKey,"更私密解密");
+		decryptData('encrypt',gpgKey,"一般解密");
+		decryptData('e',gpgKey,"一般解密");
+		decryptData('encpp',secKey,"更私密解密");
+		decryptData('e+',secKey,"更私密解密");
 		
 		///GPG 负担了不该负担的活
 		{

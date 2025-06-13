@@ -28,6 +28,7 @@ export default defineConfig({
       {text:'游戏人生',link:'/gaming_life'},
       {text:'随笔',link:'/writings'},
       {text:'探险',link:'/exploration'},
+      {text:'杂项',link:'/others'},
       {text:'关于',link:'/about'},
       {text:'设置',link:'/settings'},
     ],

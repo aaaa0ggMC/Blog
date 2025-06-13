@@ -13,6 +13,7 @@
 
 ## 诗与远方
 有些东西还很青涩hh，但还是摆出来了，毕竟"<span class='hl'>时无重至，华不再阳</span>"。<br>
+[2022/03/22](./poems/desper.md)|绝望 <br>
 [2023/12/1X](./poems/rusted_clock.md)|停摆的钟 <br>
 [2023/12/20](./poems/so_called_grow_up.md)|<span class='hl'>所谓成长</span> <br>
 [2023/12/20](./poems/somebody.md)|有些人 <br>
@@ -22,7 +23,10 @@
 [2024/01/22](./poems/snowing_night.md)|<span class='hl'>雪夜</span> <br>
 [2024/09/06](./poems/why_recall.md)|为何念念不忘 <br>
 [2024/09/07](./poems/afraid.md)|害怕 <br>
-[2025/02/06](./poems/true_emptiness)|真正的虚无 <br>
+[2025/02/06](./poems/true_emptiness.md)|真正的虚无 <br>
+[2025/04/21](./poems/dream_in_rains.md)|雨中一梦 <br>
+[2025/05/13](./poems/summer_changsha.md)|夏日长沙 <span class='ps'>比较有趣的作品</span> <br>
+[2025/05/18](./poems/not_a_poem_0)|探险随想（4篇，不算诗） <br>
 
 ## 2025年 - 上
 [2025/01/19](./people_0.md)|<span class='encrypt'>b694c2cb40b6bb9646d6fec5e0c6519cd44985f9773a47fe4bb431ef6ca5d17d</span>
