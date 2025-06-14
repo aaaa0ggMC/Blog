@@ -122,6 +122,12 @@ export function initPage(page_id){
 		}
 		mainPage();
 		break;
+	case 'debug.enc':
+		if(localStorage.debug_key){
+			let ipt = document.getElementById('db_key') as HTMLInputElement | null;
+			ipt.value = localStorage.debug_key;
+		}
+		break;
 	case 'settings':
 		console.log("Init settings page.");
 		if(localStorage.disAllowLog == null){
