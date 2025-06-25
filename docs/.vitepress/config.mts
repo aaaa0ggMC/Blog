@@ -1,5 +1,5 @@
-import { base } from './theme/layout/Data.ts';
-import { defineConfig } from 'vitepress' 
+import { base } from './scripts/Data.ts';
+import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   markdown: {
@@ -16,8 +16,7 @@ export default defineConfig({
 
   themeConfig:{
     footer: {
-      message: "Developed by aaaa0ggmc",
-      //copyright: ""
+      message: "Developed by aaaa0ggmc"
     },
     search: {
       provider: 'local'
@@ -58,7 +57,7 @@ export default defineConfig({
             ]},
             {text:"--Vol.III",collapsed: true,link:"/writings/fmn_vol_3"},
         ]},
-        {text:"Are You ⬜⬜⬜⬜",link:"/writings/are_you_____"},
+        {text:"Are You 口口口口",link:"/writings/are_you_____"},
         {text:"纪梦",link:"/writings/dreams"},
       ],
       "/keep_learning":{

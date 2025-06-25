@@ -2,10 +2,14 @@ import DefaultTheme from 'vitepress/theme-without-fonts';
 import Layout from './layout/Layout.vue';
 import { useRoute } from 'vitepress';
 import { watch, onMounted } from 'vue';
+//privacy
 import * as GPGModule from './layout/GPG';
-import ec from './layout/ec.vue';
-// 引入需要的外部资源
-// import './layout/GPG';  // 确保 GPG.ts 会被加载
+import * as Decryptor from '../scripts/Decryptor';
+//replacers
+import ec from './layout/replacers/ec.vue';
+import ecp from './layout/replacers/ecp.vue';
+import np from './layout/replacers/np.vue';
+//css
 import './custom.css';
 
 export default {
@@ -16,14 +20,15 @@ export default {
     
 	onMounted(async () => {
 		console.log('Vue mounted.');
-    if (typeof document !=  'undefined'){
-      await import('./layout/naranja.js');
-      await import('./layout/popup.js');
-      await import('./layout/Switch');
-    }
-		console.log('GPG.ts 加载成功');
-		GPGModule.initGPG();// Detect if in-browser to avoid errors in GitHub Actions
-		if (typeof window !== 'undefined') {
+        if (typeof document !=  'undefined'){
+          await import('./layout/naranja.js');
+          await import('./layout/popup.js');
+          await import('./layout/Switch');
+        }
+		console.log('Decrypting');
+		Decryptor.tryDecrypt();// Detect if in-browser to avoid errors in GitHub Actions
+
+        if (typeof window !== 'undefined') {
 			console.log('Running in browser');
 		} else {
 			console.log('Not in browser (GitHub Actions or other environments)');
@@ -34,12 +39,13 @@ export default {
       () => route.path,
       () => {
         console.log("Route changed");
-		    console.log('GPG.ts 加载成功');
-		    GPGModule.initGPG();
+        console.log('Decrypting...');
+        Decryptor.tryDecrypt();
       }
     );
   },
   enhanceApp({ app }) {
     app.component('ec',ec);
+    app.component('np',np);
   }
 };

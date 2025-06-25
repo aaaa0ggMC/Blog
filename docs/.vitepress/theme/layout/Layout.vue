@@ -33,7 +33,7 @@ import Giscus from "@giscus/vue";
 import DefaultTheme from "vitepress/theme-without-fonts";
 import { watch, computed } from "vue";
 import { inBrowser, useData, useRouter } from "vitepress";
-import { base } from './Data';
+import { base } from '../../scripts/Data';
 
 
 const { isDark, page } = useData();

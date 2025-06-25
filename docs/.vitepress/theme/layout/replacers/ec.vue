@@ -1,3 +1,4 @@
+//encrypt class slot 1
 <template>
 <span class='e'>
 <slot></slot>
