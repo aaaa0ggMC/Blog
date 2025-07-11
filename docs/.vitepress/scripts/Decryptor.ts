@@ -35,7 +35,7 @@ export function encrypt(data: string, passKey: string | null = null): string {
 
 // AES256 CFB decryption using Hex encoding
 export function decrypt(data: string, passKey: string | null = null): string {
-    const key = passKey || localStorage.getItem(Data.dkey);
+    const key = passKey || localStorage.getItem(Data.ekey_norm);
     if (!key) {
         console.warn('No key found for decryption');
         return data;  // Return original data if no key
