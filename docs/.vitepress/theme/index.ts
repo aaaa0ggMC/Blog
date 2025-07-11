@@ -27,8 +27,8 @@ export default {
           await import('./layout/popup.js');
           await import('./layout/Switch');
         }
-        //console.log('Decrypting...');
-        //Decryptor.tryDecrypt();
+        console.log('Decrypting...');
+        Decryptor.tryDecrypt();
         if (typeof window !== 'undefined') {
           console.log('Running in browser');
         } else {

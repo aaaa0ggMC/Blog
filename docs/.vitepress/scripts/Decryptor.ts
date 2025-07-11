@@ -108,6 +108,11 @@ function decryptData(name : string,key : string,title : string = "") {
             else if(storeInContent) hexString = element.attributes.content.value;
             else hexString = element.innerHTML.trim();
 
+            //deal with F5 refresh but the data starts with <!--[--> problem
+            if(hexString.startsWith("<!--[-->")){
+                hexString = hexString.replace("<!--]-->", "").replace("<!--[-->", "").trim();
+            }
+
             // Decrypt the Hex string using AES256 CFB
             const decryptedText = decrypt(hexString,key); // Using decrypt here
             element.dataset.hex = hexString; // Store the Hex code
