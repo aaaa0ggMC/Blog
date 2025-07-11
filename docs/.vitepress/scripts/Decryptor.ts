@@ -232,6 +232,7 @@ export async function tryDecrypt() {
                 initPage(page_id.innerHTML);
             }else initPage("");
         }
+        
         ///
     }, 100);
 }
