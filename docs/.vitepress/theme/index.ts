@@ -9,6 +9,7 @@ import * as Decryptor from '../scripts/Decryptor';
 import ec from './layout/replacers/ec.vue';
 import ecp from './layout/replacers/ecp.vue';
 import np from './layout/replacers/np.vue';
+import tc from './layout/replacers/tc.vue';
 //css
 import './custom.css';
 
@@ -47,5 +48,7 @@ export default {
   enhanceApp({ app }) {
     app.component('ec',ec);
     app.component('np',np);
+    app.component('ecp',ecp);
+    app.component('tc',tc);
   }
 };

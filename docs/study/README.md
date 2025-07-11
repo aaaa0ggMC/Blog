@@ -4,8 +4,7 @@
 # 目录
 ## 语文
 - [学习方法](./Chinese/Method)
-## 英语
-- [2025/03/06 探究：2021北京英语高考题阅读理解C篇](./eng_peking_gk_c.md)
+
 
 ## 什么是主科？
 ### For Senior High

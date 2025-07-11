@@ -178,8 +178,10 @@ export async function tryDecrypt() {
 
         const gpgKey = localStorage.getItem(Data.ekey_norm);
         const secKey = localStorage.getItem(Data.ekey_priv);
-        const target = document.getElementById(Data.dkey) as HTMLInputElement | null;
+        const teacherKey = localStorage.getItem(Data.ekey_teacher);
+        const target = document.getElementById(Data.ekey_norm) as HTMLInputElement | null;
         const targetSec = document.getElementById(Data.ekey_priv) as HTMLInputElement | null;
+        const targetTC = document.getElementById(Data.ekey_teacher) as HTMLInputElement | null;
         const targetUDF = document.getElementById(Data.user_define) as HTMLInputElement | null;
 
         if (target && gpgKey) {
@@ -187,6 +189,9 @@ export async function tryDecrypt() {
         }
         if (targetSec && secKey) {
             targetSec.value = secKey;
+        }
+        if (targetTC && teacherKey) {
+            targetTC.value = teacherKey;
         }
         if (targetUDF) {
             targetUDF.value = localStorage.userDef==null?"":localStorage.userDef;
@@ -201,6 +206,11 @@ export async function tryDecrypt() {
                 if(e.keyCode == 13){confirmGPG();narn("success","密钥更新成功",1000,"密钥设置");initGPG();}
             }
         }
+        if(targetTC){
+            targetTC.onkeyup = function(e){
+                if(e.keyCode == 13){confirmGPG();narn("success","密钥更新成功",1000,"密钥设置");initGPG();}
+            }
+        }
         if(targetUDF){
             targetUDF.onkeyup = function(e){
                 if(e.keyCode == 13){localStorage.userDef = targetUDF.value;narn("success","更新成功",1000,"代理设置");}
@@ -211,6 +221,7 @@ export async function tryDecrypt() {
         decryptData('e',gpgKey,"一般解密");
         decryptData('encpp',secKey,"更私密解密");
         decryptData('e+',secKey,"更私密解密");
+        decryptData('eteacher',teacherKey,"给老师用的密钥");
 
         ///GPG 负担了不该负担的活
         {
@@ -232,15 +243,21 @@ if (typeof window !== 'undefined') {
     window.initGPG = tryDecrypt;
     window.tryDecrypt = tryDecrypt; // Now exposed to window
     window.confirmGPG = function () {
-        const target = document.getElementById('gpg_key') as HTMLInputElement | null;
+        const target = document.getElementById(Data.ekey_norm) as HTMLInputElement | null;
         if (target) {
-            localStorage.setItem('gpg_key', target.value);
+            localStorage.setItem(Data.ekey_norm, target.value);
             console.log('Set Normal AES256 Key:', target.value);
         }
-        const target2 = document.getElementById('sec_key') as HTMLInputElement | null;
+        const target2 = document.getElementById(Data.ekey_priv) as HTMLInputElement | null;
         if (target2) {
-            localStorage.setItem('sec_key', target2.value);
+            localStorage.setItem(Data.ekey_priv, target2.value);
             console.log('Set More Private AES256 Key:', target2.value);
+        }
+        
+        const target3 = document.getElementById(Data.ekey_teacher) as HTMLInputElement | null;
+        if (target3) {
+            localStorage.setItem(Data.ekey_teacher, target3.value);
+            console.log('Set Teacher AES256 Key:', target3.value);
         }
     };
     window.confirmCrypt = window.confirmGPG;
