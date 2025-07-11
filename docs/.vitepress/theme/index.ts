@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme-without-fonts';
 import Layout from './layout/Layout.vue';
-import { useRoute } from 'vitepress';
+import { useRoute , useRouter} from 'vitepress';
 import { watch, onMounted } from 'vue';
 //privacy
 import * as GPGModule from './layout/GPG';
@@ -18,26 +18,24 @@ export default {
   extends: DefaultTheme,
   setup() {
     const route = useRoute();
+    const router = useRouter();
     
-	onMounted(async () => {
+	  onMounted(async () => {
 		console.log('Vue mounted.');
         if (typeof document !=  'undefined'){
           await import('./layout/naranja.js');
           await import('./layout/popup.js');
           await import('./layout/Switch');
         }
+        //console.log('Decrypting...');
+        //Decryptor.tryDecrypt();
         if (typeof window !== 'undefined') {
           console.log('Running in browser');
-          setTimeout(() => {
-            console.log('Initializing GPG...');
-            console.log('Decrypting');
-            Decryptor.tryDecrypt();// Detect if in-browser to avoid errors in GitHub Actions
-          }, 100);// Delay to ensure DOM is ready
         } else {
           console.log('Not in browser (GitHub Actions or other environments)');
         }
     });
-	
+
     watch(
       () => route.path,
       () => {
