@@ -183,6 +183,10 @@ export function initPage(page_id){
 			else tpath = "https://cdn.jsdelivr.net/gh/aaaa0ggMC/Blog_PicBackend@main" + tpath;
 		}
 		obj.src = tpath;
+		obj.classList.add("lazy-img");
+		obj.addEventListener("load", () => {
+			obj.classList.add("loaded");
+		});
 	}
 	///load fonts
 	if(localStorage.useGH == 'true'){

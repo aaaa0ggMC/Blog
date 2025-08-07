@@ -13,12 +13,25 @@ my passion.
 </p>
 &emsp;&emsp;所以说大人的话都是骗人的，但是如果我没被骗而不偷感十足地玩，以我这性格，估计早就抛弃了，甚至不会留下这个“遗书”。
 
-:::details 图片
+:::details 这次告别拍下的图片
 回看我在2024年12月建造的欢迎墙：
-<img content="/imgs/3c3u/sayonara/welcome_board.png" />
+<img loading="lazy" content="/imgs/3c3u/sayonara/welcome_board.png" />
 由于朋友借号做事没给我善后，只能在末地告别了：
-<img content="/imgs/3c3u/sayonara/last_gear.png" />
-<img content="/imgs/3c3u/sayonara/bad_pearl.png"  title="珍珠传送失效了" />
-<img content="/imgs/3c3u/sayonara/goodbye.jpg"  title="再见了" />
-
+<img loading="lazy" content="/imgs/3c3u/sayonara/last_gear.png" />
+<img loading="lazy" content="/imgs/3c3u/sayonara/bad_pearl.png"  title="珍珠传送失效了" />
+<img loading="lazy" content="/imgs/3c3u/sayonara/goodbye.jpg"  title="再见了" />
+仓库：
+<img loading="lazy" content="/imgs/3c3u/sayonara/storage.jpg"  />
+交易所：
+<img loading="lazy" content="/imgs/3c3u/sayonara/exchange.jpg"  />
+简易单区块熔炉：
+<img loading="lazy" content="/imgs/3c3u/sayonara/furnace.jpg"  />
+远方还未被发现的小金库：
+<img loading="lazy" content="/imgs/3c3u/sayonara/vault.jpg"  />
+还未完成的刷铁机：
+<img loading="lazy" content="/imgs/3c3u/sayonara/wip_iron.jpg"  />
+不知道我家下面怎么这么点距离就有了基岩，以及这么大个区域是什么：
+<img loading="lazy" content="/imgs/3c3u/sayonara/unknown.jpg"  />
+“遗书”：
+<img loading="lazy" content="/imgs/3c3u/sayonara/lastwords.jpg"  />
 :::

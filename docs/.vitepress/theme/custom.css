@@ -5,6 +5,22 @@
     font-stretch: 100% 100%;
 }*/
 
+.lazy-img {
+  width: 600px;
+  height: 320px;
+  background-color: #eee;
+  display: inline-block;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+.lazy-img.loaded {
+	width: auto;
+	height: auto;
+	background-color: #ffffff00;
+  	opacity: 1;
+}
+
 .dag {
 	mix-blend-mode: multiply;
 }

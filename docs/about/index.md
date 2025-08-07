@@ -20,3 +20,10 @@
 ><p align='center' >......<br>高考加油！</p>
 >Cheers!
 ><p class='leave'>2025/1/30</p>
+
+## 个人介绍 2025/8/7
+>&emsp;&emsp;目前，我的高中生活已经落幕了，我录取到了<ec>f0b356943407d15fd074de1d98dd216b0a16961de4e8d93772c3a93906e1f268643c4941d9128d2f85707f725ac93fa0</ec>，即将成为所谓的<ec>aa92b9b2e1d1e7aa755856e39ba1f959870138e3d7fa9e4c89d45e49735354a1</ec>。<br/>
+>&emsp;&emsp;六个月过去，我感觉自己变了，又没变。哈哈，相对运动嘛！<br/>
+>那么，Cheers!
+><p class='leave'>2025/8/7</p>
+
