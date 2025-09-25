@@ -28,12 +28,16 @@
 [2025/05/13](./poems/summer_changsha.md)|夏日长沙 <span class='ps'>比较有趣的作品</span> <br>
 [2025/05/18](./poems/not_a_poem_0)|探险随想（4篇，不算诗） <br>
 
+# 2022年
+[2022/xx/xx](./want_a_lib.md)|我真的想做一个lib库！——长谈我两年半的编程生涯 <span class='ps'>关于时间:应该在六月份以前</span>
+
 ## 2025年 - 上
 [2025/01/19](./people_0.md)|<span class='encrypt'>b694c2cb40b6bb9646d6fec5e0c6519cd44985f9773a47fe4bb431ef6ca5d17d</span>
 <br>
 [2025/02/02](./lunaryear_summary_2025.md)|<span class='hl'>年假总结</span>
 <br>
-[2025/04/03](./truth_of_happiness.md)|<span class='hl'>幸福的真相---成为自己的“超人”：找点“罪”受</span>
+[2025/04/03](./truth_of_happiness.md)|<span class='hl'>幸福的真相---成为自己的“超人”：找点“罪”受</span> <br/>
+[2025/04/18](./gray.md)|灰色 
 
 ## 2025年 - 下
-[2025/07/16](./bye_danmaku.md)| 再见，弹幕
+[2025/09/19](./highschool_life.md)|<span class='hl'>浮生若梦——高中</span>
