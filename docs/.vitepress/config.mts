@@ -66,6 +66,7 @@ export default defineConfig({
           items:[
             {text:"Keep Learning",link:"/keep_learning/"},
             {text:"读书笔记",link:"/keep_learning/reading"},
+            {text:"编程生涯记录",link:"/keep_learning/coding_life"},
             {text:"C/C++学习",link:"/keep_learning/c_c++"},
             {text:"其他语言的学习",link:"/keep_learning/other_langs"},
             {text:"Linux的学习",link:"/keep_learning/archlinux"},

@@ -22,7 +22,7 @@ features:
   - icon: 🧑‍💻
     title: Coding
     details: 编程生涯记录
-    link: /keep_learning/c_c++
+    link: /keep_learning/coding_life
   - icon: 🙀
     title: ArchLinux
     details: 我的ArchLinux折腾记录

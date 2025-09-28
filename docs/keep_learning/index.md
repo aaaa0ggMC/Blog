@@ -5,6 +5,7 @@
 
 ## 本大板块将讨论：
 - [读书笔记](./reading/)
+- [编程生涯](./coding_life)
 - [C/C++学习(语法，STL...)](./c_c++)
 - [其他语言的学习(如Java,Python,HTML,Rust...)](./other_langs)
 - [Linux的学习（以ArchLinux为核心）](./archlinux)
