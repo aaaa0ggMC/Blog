@@ -41,3 +41,4 @@
 
 ## 2025年 - 下
 [2025/09/19](./highschool_life.md)|<span class='hl'>浮生若梦——高中</span>
+[2025/10/10](./desire.md)|无聊，渴望
