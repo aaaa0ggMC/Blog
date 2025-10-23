@@ -3,7 +3,6 @@ import Layout from './layout/Layout.vue';
 import { useRoute , useRouter} from 'vitepress';
 import { watch, onMounted } from 'vue';
 //privacy
-import * as GPGModule from './layout/GPG';
 import * as Decryptor from '../scripts/Decryptor';
 //replacers
 import ec from './layout/replacers/ec.vue';
