@@ -38,10 +38,10 @@ features:
   - icon: 😋
     title: Gaming
     link: /gaming_life/
-  - icon: 📚
-    title: Study
-    details: 我在主要科目学习上的认识
-    link: /keep_learning/study
+  - icon: 💪
+    title: Sports
+    details: 我的体育日志
+    link: /keep_learning/others/sports/
 ---
 
 <style>
