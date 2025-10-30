@@ -41,7 +41,7 @@ features:
   - icon: 💪
     title: Sports
     details: 我的体育日志
-    link: /keep_learning/others/sports/
+    link: /others/sports/
 ---
 
 <style>
