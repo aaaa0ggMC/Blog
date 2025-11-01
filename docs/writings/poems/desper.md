@@ -1,6 +1,6 @@
 # <p align='center'>绝望</p>
 <div align='center'>
-玉帝落在了地面 <br>
+雨滴落在了地面 <br>
 一眨眼 <br>
 却已等了三年 <br>
 信用这两个字眼 <br>

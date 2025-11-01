@@ -40,5 +40,6 @@
 [2025/04/18](./gray.md)|灰色 
 
 ## 2025年 - 下
-[2025/09/19](./highschool_life.md)|<span class='hl'>浮生若梦——高中</span>
-[2025/10/10](./desire.md)|无聊，渴望
+[2025/09/19](./highschool_life.md)|<span class='hl'>浮生若梦——高中</span> <br/>
+[2025/10/10](./desire.md)|无聊，渴望 <br/>
+[2025/11/01](./forget_discard.md)|<span class='hl'>遗忘与抛弃</span>
