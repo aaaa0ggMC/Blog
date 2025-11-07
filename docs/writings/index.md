@@ -7,7 +7,7 @@
 
 - [勿忘我 (Forget Me Not)](./forget_me_not)
 - [Are You ⬜⬜⬜⬜](./are_you_____)
-- [纪梦](./dreams) <span class='ps' >至于为什么是这个“纪”，就是故意写错的，我也不知道为什么要这么做</span>
+- [纪梦](./dreams/index) <span class='ps' >至于为什么是这个“纪”，就是故意写错的，我也不知道为什么要这么做</span>
 
 <p class='ins'>其余的便是杂七杂八的东西了，很多偏向于周记:</p>
 
