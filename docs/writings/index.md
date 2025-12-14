@@ -42,4 +42,5 @@
 ## 2025年 - 下
 [2025/09/19](./highschool_life.md)|<span class='hl'>浮生若梦——高中</span> <br/>
 [2025/10/10](./desire.md)|无聊，渴望 <br/>
-[2025/11/07](./forget_discard.md)|<span class='hl'>遗忘与抛弃</span>
+[2025/11/07](./forget_discard.md)|<span class='hl'>遗忘与抛弃</span> <br />
+[2025/11/08](./maybe_lost.md)|<span class='hl'>Am I Lost?</span>
