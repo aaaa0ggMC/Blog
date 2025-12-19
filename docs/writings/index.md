@@ -37,7 +37,9 @@
 [2025/02/02](./lunaryear_summary_2025.md)|<span class='hl'>年假总结</span>
 <br>
 [2025/04/03](./truth_of_happiness.md)|<span class='hl'>幸福的真相---成为自己的“超人”：找点“罪”受</span> <br/>
-[2025/04/18](./gray.md)|灰色 
+[2025/04/15](./lost.md)|迷茫 <br/>
+[2025/04/18](./gray.md)|灰色 <br/>
+[2025/04/22](./return_0.md)|回归 <br/>
 
 ## 2025年 - 下
 [2025/09/19](./highschool_life.md)|<span class='hl'>浮生若梦——高中</span> <br/>
