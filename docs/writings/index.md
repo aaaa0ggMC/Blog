@@ -27,6 +27,7 @@
 [2025/04/21](./poems/dream_in_rains.md)|雨中一梦 <br>
 [2025/05/13](./poems/summer_changsha.md)|夏日长沙 <span class='ps'>比较有趣的作品</span> <br>
 [2025/05/18](./poems/not_a_poem_0)|探险随想（4篇，不算诗） <br>
+[2025/02/01](./poems/going_home)|夜晚急回老家 <br>
 
 # 2022年
 [2022/xx/xx](./want_a_lib.md)|我真的想做一个lib库！——长谈我两年半的编程生涯 <span class='ps'>关于时间:应该在六月份以前</span>
